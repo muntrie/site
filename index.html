@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muntrie | A Full-Screen Workspace for Flow</title>
+    <meta
+      id="page-description"
+      name="description"
+      content="A full-screen workspace for time, atmosphere, focus, and planning."
+    />
+    <meta name="theme-color" content="#11171d" />
+    <meta id="og-title" property="og:title" content="Muntrie" />
+    <meta
+      id="og-description"
+      property="og:description"
+      content="A full-screen workspace for time, atmosphere, focus, and planning."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/icons/brand-icon.png" />
+    <meta id="og-url" property="og:url" content="" />
+    <link id="canonical" rel="canonical" href="" />
+    <meta name="apple-itunes-app" content="app-id=PLACEHOLDER" />
+    <link rel="icon" href="./assets/icons/favicon.png" />
+    <link
+      rel="preload"
+      href="./assets/fonts/digital.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./home.css" />
+    <script defer src="./config.js"></script>
+    <script defer src="./content.js"></script>
+    <script defer src="./script.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Muntrie",
+          "url": "https://muntrie.app/",
+          "description": "A full-screen workspace for time, atmosphere, focus, and planning."
+        },
+        {
+          "@type": "SoftwareApplication",
+          "name": "Muntrie",
+          "operatingSystem": "iOS, Android",
+          "applicationCategory": "LifestyleApplication",
+          "description": "Muntrie turns your screen into a full-screen workspace where time, scene, sound, focus, and planning stay in one uninterrupted flow.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#main-content" data-i18n="common.skipToContent">Skip to content</a>
+    <div class="ambient-orb ambient-orb-one"></div>
+    <div class="ambient-orb ambient-orb-two"></div>
+    <div class="ambient-grid" aria-hidden="true"></div>
+
+    <header class="site-header glass">
+      <a class="brand" href="#top" aria-label="Muntrie Home" data-i18n-aria-label="common.ariaHome">
+        <img
+          class="brand-mark"
+          src="./assets/icons/brand-icon.png"
+          alt=""
+          aria-hidden="true"
+          width="34"
+          height="34"
+        />
+        <span class="brand-copy">
+          <strong>Muntrie</strong>
+          <small data-i18n="common.brandSubtitle">A full-screen workspace that helps you get into flow.</small>
+        </span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Open menu"
+        data-i18n-aria-label="common.ariaOpenMenu"
+      >
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav
+        class="site-nav"
+        id="site-nav"
+        aria-label="Site navigation"
+        data-i18n-aria-label="common.ariaSiteNavigation"
+      >
+        <a href="#top" data-i18n="common.navHome">Home</a>
+        <a href="#experience" data-i18n="common.navExperience">Experience</a>
+        <a href="#features" data-i18n="common.navFeatures">Features</a>
+        <a href="#scenes" data-i18n="common.navScenes">Scenes</a>
+        <a href="#principles" data-i18n="common.navPrinciples">Principles</a>
+        <span class="nav-active-indicator" data-nav-active-indicator aria-hidden="true"></span>
+        <a class="nav-drawer-cta" href="#download" data-i18n="common.headerExplore">Get the app</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="header-cta" href="#download" data-i18n="common.headerExplore">Get the app</a>
+        <div
+          class="locale-toggle"
+          role="group"
+          aria-label="Language switch"
+          data-i18n-aria-label="common.ariaLanguageSwitch"
+        >
+          <button
+            class="locale-button"
+            type="button"
+            data-locale-choice="en"
+            data-i18n="common.languageEn"
+          >
+            EN
+          </button>
+          <button
+            class="locale-button"
+            type="button"
+            data-locale-choice="zh"
+            data-i18n="common.languageZh"
+          >
+            中文
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content" class="home-main">
+      <section
+        class="hero section"
+        id="top"
+        aria-labelledby="hero-title"
+        data-preview-orientation="landscape"
+        data-preview-sound="off"
+      >
+        <div class="hero-grid">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow" data-i18n="home.hero.eyebrow">Flow workspace</p>
+            <h1 class="hero-title" id="hero-title" data-i18n="home.hero.title">
+              Full-screen flow workspace.
+            </h1>
+            <p class="hero-lead" data-i18n="home.hero.lead">
+              Keep time, scene, sound, focus, saved spaces, Life, and Priority Matrix around one
+              uninterrupted surface.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#download" data-i18n="home.hero.primaryCta">
+                Get the app
+              </a>
+              <a class="button button-secondary" href="#experience" data-i18n="home.hero.secondaryCta">
+                See how it works
+              </a>
+            </div>
+
+            <dl class="hero-stats" data-home-hero-stats></dl>
+          </div>
+
+          <div class="hero-media" data-reveal>
+            <div class="hero-preview-column">
+              <div class="device-shell" data-device-shell data-preview-orientation="landscape">
+                <div class="stage-preview">
+                  <div class="stage-backgrounds" data-stage-backgrounds aria-hidden="true"></div>
+                  <div class="stage-vignette" aria-hidden="true"></div>
+
+                  <button
+                    class="preview-sound-toggle preview-sound-toggle-overlay"
+                    type="button"
+                    data-preview-sound-toggle
+                    aria-pressed="false"
+                    aria-label="Sound off"
+                  >
+                    <svg class="sound-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <path
+                        d="M11 5 6.9 9H4v6h2.9L11 19V5Z"
+                        stroke="currentColor"
+                        stroke-width="1.7"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        class="sound-wave"
+                        d="M14.4 9.7c.95.67 1.42 1.44 1.42 2.3 0 .86-.47 1.63-1.42 2.3"
+                        stroke="currentColor"
+                        stroke-width="1.7"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        class="sound-wave"
+                        d="M17.05 7.35c1.64 1.28 2.45 2.83 2.45 4.65 0 1.82-.81 3.37-2.45 4.65"
+                        stroke="currentColor"
+                        stroke-width="1.7"
+                        stroke-linecap="round"
+                      />
+                      <path
+                        class="sound-slash"
+                        d="M5 5 19 19"
+                        stroke="currentColor"
+                        stroke-width="1.7"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                    <span class="sr-only" data-preview-sound-label data-i18n="home.stage.soundOff">Sound off</span>
+                  </button>
+
+                  <div class="stage-center">
+                    <div class="digital-time" data-live-time aria-label="10:08:42">
+                      <span class="time-digit" data-time-slot="h1" aria-hidden="true">1</span>
+                      <span class="time-digit" data-time-slot="h2" aria-hidden="true">0</span>
+                      <span class="time-separator" aria-hidden="true">:</span>
+                      <span class="time-digit" data-time-slot="m1" aria-hidden="true">0</span>
+                      <span class="time-digit" data-time-slot="m2" aria-hidden="true">8</span>
+                      <span class="time-separator" aria-hidden="true">:</span>
+                      <span class="time-digit" data-time-slot="s1" aria-hidden="true">4</span>
+                      <span class="time-digit" data-time-slot="s2" aria-hidden="true">2</span>
+                    </div>
+                  </div>
+
+                  <div
+                    class="stage-indicators"
+                    data-stage-indicators
+                    role="group"
+                    aria-label="Scene selector"
+                    data-i18n-aria-label="common.ariaSceneSelector"
+                  ></div>
+                </div>
+              </div>
+
+              <div
+                class="hero-stage-meta"
+                aria-label="Current Muntrie session"
+                data-i18n-aria-label="home.stage.sessionMetaAria"
+              >
+                <div class="hero-stage-meta-item" data-reveal>
+                  <span data-i18n="home.stage.activeSpaceLabel">Active space</span>
+                  <strong data-i18n="home.stage.activeSpaceValue">Deep Work</strong>
+                </div>
+                <div class="hero-stage-meta-item" data-reveal>
+                  <span data-i18n="home.stage.currentAtmosphereLabel">Current atmosphere</span>
+                  <strong data-preview-scene-value>Misty Woodland</strong>
+                </div>
+                <div class="hero-stage-meta-item" data-reveal>
+                  <span data-i18n="home.stage.focusModeLabel">Focus mode</span>
+                  <strong data-i18n="home.stage.focusModeValue">Pomodoro ready</strong>
+                </div>
+              </div>
+
+              <audio data-preview-audio-ambient loop preload="none" playsinline></audio>
+              <audio data-preview-audio-music loop preload="none" playsinline></audio>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section experience" id="experience" aria-labelledby="experience-title">
+        <div class="section-shell section-shell-split">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow" data-i18n="home.experience.eyebrow">Workspace structure</p>
+            <h2 id="experience-title" data-i18n="home.experience.title">A workspace shaped for uninterrupted flow.</h2>
+            <p data-i18n="home.experience.lead">
+              The website now follows the same product shape as the app: one stage, layered
+              controls, recoverable state.
+            </p>
+          </div>
+
+          <div class="section-panel section-panel-soft">
+            <div class="experience-grid" data-home-experience-cards></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section feature-section" id="features" aria-labelledby="features-title">
+        <div class="section-shell">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow" data-i18n="home.features.eyebrow">Core modules</p>
+            <h2 id="features-title" data-i18n="home.features.title">Time, atmosphere, focus, and planning in one full-screen workspace.</h2>
+            <p data-i18n="home.features.lead">
+              Everything you need for flow stays close enough to use and light enough to ignore.
+            </p>
+          </div>
+
+          <div class="section-panel">
+            <div class="feature-grid" data-home-feature-cards></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section scene-section" id="scenes" aria-labelledby="scenes-title">
+        <div class="section-shell">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow" data-i18n="home.scenes.eyebrow">Scenes</p>
+            <h2 id="scenes-title" data-i18n="home.scenes.title">Real scenes, not decoration.</h2>
+            <p data-i18n="home.scenes.lead">
+              The website opens with the same bundled scene language that shapes Muntrie's in-app atmosphere.
+            </p>
+          </div>
+
+          <div class="section-panel">
+            <div class="scene-grid" data-home-scene-cards></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section principle-section" id="principles" aria-labelledby="principles-title">
+        <div class="section-shell section-shell-split">
+          <div class="section-heading section-heading-principles" data-reveal>
+            <p class="eyebrow" data-i18n="home.principles.eyebrow">Design principles</p>
+            <h2 id="principles-title" data-i18n="home.principles.title">Three rules keep the workspace in flow.</h2>
+            <p data-i18n="home.principles.lead">
+              Stay full screen. Keep atmosphere continuous. Let secondary routes step back.
+            </p>
+            <p class="section-heading-note" data-i18n="home.principles.note">
+              These are ordering rules, not another feature list.
+            </p>
+          </div>
+
+          <div class="section-panel section-panel-soft">
+            <div class="principle-grid" data-home-principle-cards></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section closing-section" id="download" aria-labelledby="download-title">
+        <div class="closing-panel glass" data-reveal>
+          <div class="closing-copy">
+            <p class="closing-kicker" data-i18n="home.closing.kicker">Download</p>
+            <h2 id="download-title" data-i18n="home.closing.title">Bring Muntrie to your work desktop.</h2>
+            <p data-i18n="home.closing.body">
+              Scan for iOS or Android and start from the same full-screen flow workspace shown above.
+            </p>
+          </div>
+
+          <div class="closing-download-grid" data-closing-download-cards></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer global-footer" id="site-footer">
+      <div class="global-footer-inner">
+        <div class="global-footer-directory" aria-label="Footer">
+          <nav class="global-footer-column" aria-labelledby="global-footer-workspace">
+            <h2 id="global-footer-workspace" data-i18n="common.footerWorkspace">Workspace</h2>
+            <a href="#top" data-i18n="common.navHome">Home</a>
+            <a href="#experience" data-i18n="common.footerExperience">Session-first</a>
+            <a href="#features" data-i18n="common.navFeatures">Features</a>
+            <a href="#scenes" data-i18n="common.navScenes">Scenes</a>
+            <a href="#principles" data-i18n="common.navPrinciples">Principles</a>
+          </nav>
+
+          <nav class="global-footer-column" aria-labelledby="global-footer-product">
+            <h2 id="global-footer-product" data-i18n="common.footerProduct">Product</h2>
+            <a href="#download" data-i18n="common.headerExplore">Download</a>
+            <a href="./about.html" data-i18n="common.footerAbout">About</a>
+            <a href="./support.html" data-i18n="common.footerSupport">Support</a>
+          </nav>
+
+          <nav class="global-footer-column" aria-labelledby="global-footer-contact">
+            <h2 id="global-footer-contact" data-i18n="common.footerContact">Support</h2>
+            <a href="./support.html#support-contact" data-i18n="common.footerContactSupport">
+              Product support
+            </a>
+            <a href="./support.html#support-contact" data-i18n="common.footerContactBilling">
+              Billing
+            </a>
+            <a href="./support.html#support-contact" data-i18n="common.footerContactSecurity">
+              Security reports
+            </a>
+            <a href="./privacy.html#privacy-contact" data-i18n="common.footerPrivacyRequests">
+              Privacy requests
+            </a>
+          </nav>
+
+          <nav class="global-footer-column" aria-labelledby="global-footer-legal">
+            <h2 id="global-footer-legal" data-i18n="common.footerLegal">Legal</h2>
+            <a href="./privacy.html" data-i18n="common.footerPrivacy">Privacy Policy</a>
+            <a href="./terms.html" data-i18n="common.footerTerms">Terms of Use</a>
+            <a href="./about.html#contact" data-i18n="common.contactLegalTitle">Legal notices</a>
+          </nav>
+        </div>
+
+        <div class="global-footer-brand-row">
+          <a class="global-footer-brand" href="#top" data-i18n-aria-label="common.ariaHome">
+            <img
+              src="./assets/icons/brand-icon.png"
+              alt=""
+              aria-hidden="true"
+              width="34"
+              height="34"
+            />
+            <span>Muntrie</span>
+          </a>
+          <p data-i18n="common.footerTagline">Full screen. Low noise. Built for flow.</p>
+          <nav class="global-footer-utility-links" aria-label="Footer utility">
+            <a href="./about.html" data-i18n="common.footerAbout">About</a>
+            <a href="./support.html" data-i18n="common.footerSupport">Support</a>
+            <a href="./privacy.html" data-i18n="common.footerPrivacy">Privacy Policy</a>
+            <a href="./terms.html" data-i18n="common.footerTerms">Terms of Use</a>
+          </nav>
+        </div>
+
+        <div class="global-footer-bottom">
+          <small>
+            © <span data-current-year></span> Muntrie.
+            <span data-i18n="common.footerRights">All rights reserved.</span>
+          </small>
+          <span data-i18n="common.footerOperator">Official site for the Muntrie app.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muntrie | Support</title>
+    <meta
+      id="page-description"
+      name="description"
+      content="Support routes for Muntrie, including product help, billing, privacy requests, security reports, and legal notices."
+    />
+    <meta name="theme-color" content="#11171d" />
+    <meta id="og-title" property="og:title" content="Muntrie | Support" />
+    <meta
+      id="og-description"
+      property="og:description"
+      content="Support routes for Muntrie, including product help, billing, privacy requests, security reports, and legal notices."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/icons/brand-icon.png" />
+    <meta id="og-url" property="og:url" content="" />
+    <link id="canonical" rel="canonical" href="" />
+    <link rel="icon" href="./assets/icons/favicon.png" />
+    <link
+      rel="preload"
+      href="./assets/fonts/digital.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./config.js"></script>
+    <script defer src="./content.js"></script>
+    <script defer src="./script.js"></script>
+  </head>
+  <body data-page="support" class="support-page legal-page">
+    <a class="skip-link" href="#main-content" data-i18n="common.skipToContent">Skip to content</a>
+    <div class="ambient-orb ambient-orb-one"></div>
+    <div class="ambient-orb ambient-orb-two"></div>
+    <div class="ambient-grid" aria-hidden="true"></div>
+
+    <header class="site-header glass">
+      <a
+        class="brand"
+        href="./index.html"
+        aria-label="Muntrie Home"
+        data-i18n-aria-label="common.ariaHome"
+      >
+        <img
+          class="brand-mark"
+          src="./assets/icons/brand-icon.png"
+          alt=""
+          aria-hidden="true"
+          width="34"
+          height="34"
+        />
+        <span class="brand-copy">
+          <strong>Muntrie</strong>
+          <small data-i18n="common.brandSubtitle">A full-screen workspace that helps you get into flow.</small>
+        </span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Open menu"
+        data-i18n-aria-label="common.ariaOpenMenu"
+      >
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+
+      <nav
+        class="site-nav"
+        id="site-nav"
+        aria-label="Site navigation"
+        data-i18n-aria-label="common.ariaSiteNavigation"
+      >
+        <a href="./index.html#top" data-i18n="common.navHome">Home</a>
+        <a href="./index.html#experience" data-i18n="common.navExperience">Experience</a>
+        <a href="./index.html#features" data-i18n="common.navFeatures">Features</a>
+        <a href="./index.html#scenes" data-i18n="common.navScenes">Scenes</a>
+        <a href="./index.html#principles" data-i18n="common.navPrinciples">Principles</a>
+        <a class="nav-drawer-cta" href="./index.html#download" data-i18n="common.headerExplore">Get the app</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="header-cta" href="./index.html#download" data-i18n="common.headerExplore">Get the app</a>
+        <div
+          class="locale-toggle"
+          role="group"
+          aria-label="Language switch"
+          data-i18n-aria-label="common.ariaLanguageSwitch"
+        >
+          <button type="button" class="locale-button" data-locale-choice="en" data-i18n="common.languageEn">
+            EN
+          </button>
+          <button type="button" class="locale-button" data-locale-choice="zh" data-i18n="common.languageZh">
+            中文
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="legal-main support-main" id="main-content" aria-labelledby="support-title">
+      <section class="section support-hero">
+        <p class="eyebrow" data-i18n="support.hero.eyebrow">Support</p>
+        <h1 id="support-title" data-i18n="support.hero.title">How to reach Muntrie.</h1>
+        <p class="legal-intro" data-i18n="support.hero.intro">
+          Use the route that matches your request. It keeps product help, billing, privacy, security,
+          and formal notices separate enough to handle correctly.
+        </p>
+      </section>
+
+      <section
+        class="section support-routing-section"
+        id="support-contact"
+        aria-labelledby="support-routing-title"
+      >
+        <div class="support-routing-panel glass">
+          <article class="support-primary-route">
+            <p class="legal-outline-label" data-i18n="support.primary.eyebrow">Start here</p>
+            <h2 id="support-routing-title" data-i18n="support.primary.title">Product support</h2>
+            <p data-i18n="support.primary.body">
+              For product questions, bug reports, onboarding help, or general support, include your platform,
+              app version, device model, and steps to reproduce when possible.
+            </p>
+            <a
+              class="support-email-link"
+              data-config-email="support"
+              data-config-email-value
+              href="mailto:support@muntrie.com"
+            >
+              support@muntrie.com
+            </a>
+          </article>
+
+          <div class="support-route-grid">
+            <article class="support-route-card">
+              <h3 data-i18n="support.routes.billing.title">Billing and premium access</h3>
+              <p data-i18n="support.routes.billing.body">
+                Purchase status, restore issues, receipts, or subscription questions. Store refunds and
+                cancellation controls remain handled by Apple or Google.
+              </p>
+              <a data-config-email="billing" data-config-email-value href="mailto:billing@muntrie.com">
+                billing@muntrie.com
+              </a>
+            </article>
+            <article class="support-route-card">
+              <h3 data-i18n="support.routes.privacy.title">Privacy and data requests</h3>
+              <p data-i18n="support.routes.privacy.body">
+                Privacy questions, data handling requests, or questions about local data, diagnostics, and
+                service providers.
+              </p>
+              <a data-config-email="privacy" data-config-email-value href="mailto:privacy@muntrie.com">
+                privacy@muntrie.com
+              </a>
+            </article>
+            <article class="support-route-card">
+              <h3 data-i18n="support.routes.security.title">Security reports</h3>
+              <p data-i18n="support.routes.security.body">
+                Vulnerability reports, abuse reports, or issues that may expose sensitive information.
+              </p>
+              <a data-config-email="security" data-config-email-value href="mailto:security@muntrie.com">
+                security@muntrie.com
+              </a>
+            </article>
+            <article class="support-route-card">
+              <h3 data-i18n="support.routes.legal.title">Formal legal notices</h3>
+              <p data-i18n="support.routes.legal.body">
+                Rights requests, formal notices, or operator matters. Use the operations inbox for publisher or
+                business routing questions.
+              </p>
+              <a data-config-email="legal" data-config-email-value href="mailto:legal@muntrie.com">
+                legal@muntrie.com
+              </a>
+              <a data-config-email="operations" data-config-email-value href="mailto:ops@muntrie.com">
+                ops@muntrie.com
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section support-checklist-section" aria-labelledby="support-checklist-title">
+        <div class="support-section-heading">
+          <p class="legal-outline-label" data-i18n="support.checklist.eyebrow">Before sending</p>
+          <h2 id="support-checklist-title" data-i18n="support.checklist.title">
+            Include the context that helps us reproduce the issue.
+          </h2>
+        </div>
+        <div class="support-checklist-grid">
+          <article class="support-check-card glass">
+            <span class="about-card-index">01</span>
+            <h3 data-i18n="support.checklist.cards.0.title">Platform and version</h3>
+            <p data-i18n="support.checklist.cards.0.body">
+              Tell us whether you are using iOS or Android, plus the Muntrie version and device model.
+            </p>
+          </article>
+          <article class="support-check-card glass">
+            <span class="about-card-index">02</span>
+            <h3 data-i18n="support.checklist.cards.1.title">Steps and screenshots</h3>
+            <p data-i18n="support.checklist.cards.1.body">
+              For bugs, include what you expected, what happened, and screenshots or screen recordings if useful.
+            </p>
+          </article>
+          <article class="support-check-card glass">
+            <span class="about-card-index">03</span>
+            <h3 data-i18n="support.checklist.cards.2.title">Keep secrets out</h3>
+            <p data-i18n="support.checklist.cards.2.body">
+              Do not send passwords, full payment card details, private keys, or other unnecessary sensitive information.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section support-bottom-section" aria-label="Support policy notes">
+        <article class="support-note-panel glass">
+          <p class="legal-outline-label" data-i18n="support.data.eyebrow">Privacy choices</p>
+          <h2 data-i18n="support.data.title">Account and data requests</h2>
+          <p data-i18n="support.data.body">
+            Muntrie does not currently require an app account for the core experience, so there is no Muntrie account
+            deletion workflow today. Data handling requests can be sent to the privacy inbox, and the Privacy Policy
+            explains current retention and deletion behavior.
+          </p>
+          <a class="support-text-link" href="./privacy.html" data-i18n="support.data.link">Read the Privacy Policy</a>
+        </article>
+
+        <article class="support-note-panel glass">
+          <p class="legal-outline-label" data-i18n="support.availability.eyebrow">Download availability</p>
+          <h2 data-i18n="support.availability.title">Store links are still placeholders.</h2>
+          <p data-i18n="support.availability.body">
+            The public site can be used for review preparation now. Final App Store and Google Play links, badges,
+            and QR codes should be replaced once the store listings are live.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer global-footer" id="site-footer">
+      <div class="global-footer-inner">
+        <div class="global-footer-directory" aria-label="Footer">
+          <nav class="global-footer-column" aria-labelledby="global-footer-workspace">
+            <h2 id="global-footer-workspace" data-i18n="common.footerWorkspace">Workspace</h2>
+            <a href="./index.html#top" data-i18n="common.navHome">Home</a>
+            <a href="./index.html#experience" data-i18n="common.footerExperience">Session-first</a>
+            <a href="./index.html#features" data-i18n="common.navFeatures">Features</a>
+            <a href="./index.html#scenes" data-i18n="common.navScenes">Scenes</a>
+            <a href="./index.html#principles" data-i18n="common.navPrinciples">Principles</a>
+          </nav>
+
+          <nav class="global-footer-column" aria-labelledby="global-footer-product">
+            <h2 id="global-footer-product" data-i18n="common.footerProduct">Product</h2>
+            <a href="./index.html#download" data-i18n="common.headerExplore">Download</a>
+            <a href="./about.html" data-i18n="common.footerAbout">About</a>
+            <a href="./support.html" data-i18n="common.footerSupport">Support</a>
+          </nav>
+
+          <nav class="global-footer-column" aria-labelledby="global-footer-contact">
+            <h2 id="global-footer-contact" data-i18n="common.footerContact">Support</h2>
+            <a href="./support.html#support-contact" data-i18n="common.footerContactSupport">
+              Product support
+            </a>
+            <a href="./support.html#support-contact" data-i18n="common.footerContactBilling">
+              Billing
+            </a>
+            <a href="./support.html#support-contact" data-i18n="common.footerContactSecurity">
+              Security reports
+            </a>
+            <a href="./privacy.html#privacy-contact" data-i18n="common.footerPrivacyRequests">
+              Privacy requests
+            </a>
+          </nav>
+
+          <nav class="global-footer-column" aria-labelledby="global-footer-legal">
+            <h2 id="global-footer-legal" data-i18n="common.footerLegal">Legal</h2>
+            <a href="./privacy.html" data-i18n="common.footerPrivacy">Privacy Policy</a>
+            <a href="./terms.html" data-i18n="common.footerTerms">Terms of Use</a>
+            <a href="./about.html#contact" data-i18n="common.contactLegalTitle">Legal notices</a>
+          </nav>
+        </div>
+
+        <div class="global-footer-brand-row">
+          <a class="global-footer-brand" href="./index.html#top" data-i18n-aria-label="common.ariaHome">
+            <img
+              src="./assets/icons/brand-icon.png"
+              alt=""
+              aria-hidden="true"
+              width="34"
+              height="34"
+            />
+            <span>Muntrie</span>
+          </a>
+          <p data-i18n="common.footerTagline">Full screen. Low noise. Built for flow.</p>
+          <nav class="global-footer-utility-links" aria-label="Footer utility">
+            <a href="./about.html" data-i18n="common.footerAbout">About</a>
+            <a href="./support.html" data-i18n="common.footerSupport">Support</a>
+            <a href="./privacy.html" data-i18n="common.footerPrivacy">Privacy Policy</a>
+            <a href="./terms.html" data-i18n="common.footerTerms">Terms of Use</a>
+          </nav>
+        </div>
+
+        <div class="global-footer-bottom">
+          <small>
+            © <span data-current-year></span> Muntrie.
+            <span data-i18n="common.footerRights">All rights reserved.</span>
+          </small>
+          <span data-i18n="common.footerOperator">Official site for the Muntrie app.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
