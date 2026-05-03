@@ -1272,7 +1272,7 @@ body[data-page="home"][data-locale="zh"] .closing-kicker {
 
   body[data-page="home"] .brand {
     flex: 0 1 auto;
-    gap: 10px;
+    gap: 4px;
     min-width: 0;
   }
 
@@ -1556,7 +1556,7 @@ body[data-page="home"][data-locale="zh"] .closing-kicker {
   }
 
   body[data-page="home"] .brand {
-    gap: 8px;
+    gap: 4px;
   }
 
   body[data-page="home"] .brand-copy strong {
