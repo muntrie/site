@@ -1,60 +1,79 @@
-# Muntrie Site
+# Muntrie Public Legal Pages
 
-这是放在主仓库里的自包含静态官网目录，当前实现不依赖 Flutter、Node 或额外构建链。
+`site/` contains Muntrie's current public static pages. Its main purpose is to provide publicly accessible privacy policy, terms, and support pages for Google Play, App Store review, users, and reviewers before a full official website is available.
 
-当前站点包含：
+The directory is organized as a pure static site and can be published directly through GitHub Pages or another static hosting service. It does not depend on Flutter, Node, SSR, a CMS, or any additional build pipeline.
 
-- 官网首页
-- 关于我们页
-- 支持页
-- 隐私政策页
-- 使用条款页
-- 中英文双语文案
-- 跟随系统语言自动切换，默认英文
-- iOS / Android 下载二维码占位卡
+## Current Purpose
 
-## 为什么现在适合同仓维护
+- Provide a public privacy policy URL for Google Play Console
+- Provide terms and support entry points for App Store Connect, reviewers, and users
+- Keep a stable, low-maintenance compliance page set before the official website is launched
+- Keep app legal text, support copy, and public web copy in the same repository to reduce version drift
 
-- 官网体量还小，和 app 共用品牌、场景素材、产品文案与发布节奏。
-- 同一个 PR 可以同时更新产品能力和官网描述，避免“双仓不同步”。
-- `site/` 自包含后，继续同仓并不会影响后续单独部署。
+## Public Pages
 
-## 什么时候再考虑拆仓
+- `privacy.html`: Privacy Policy page, intended as the primary Privacy Policy URL for Google Play
+- `terms.html`: Terms of Use page
+- `support.html`: User support, billing, privacy, safety, and legal contact entry point
+- `about.html`: Product and operator information page
+- `index.html`: Lightweight public entry page for Muntrie
 
-- 官网开始依赖 CMS、SSR、A/B 实验或单独的前端基础设施。
-- 官网团队和 app 团队的发布节奏明显分离。
-- 官网规模增长到需要独立依赖管理、测试矩阵和部署流水线。
+## Google Play URL
 
-如果只是品牌站、下载落地页、功能说明页，同仓维护通常是更省心的方案。
+If this directory is deployed through GitHub Pages, the Privacy Policy field in Google Play Console should use the full deployed URL for `privacy.html`, for example:
 
-## 目录说明
+```text
+https://<github-user-or-org>.github.io/<repo-name>/privacy.html
+```
 
-- `site/index.html`: 官网首页骨架
-- `site/about.html`: 关于、运营方式与公开联系渠道页
-- `site/support.html`: 产品支持、计费、隐私、安全与法务联系入口
-- `site/privacy.html`: 隐私政策页
-- `site/terms.html`: 使用条款页
-- `site/config.js`: 商店链接、联系邮箱、公司名占位配置
-- `site/content.js`: 中英文文案源与法律页结构化内容
-- `site/styles.css`: 视觉系统与响应式布局
-- `site/script.js`: 语言切换、内容渲染、live clock 与 reveal
-- `site/assets/`: 官网专用素材、二维码占位图、字体与场景图
+If GitHub Pages is configured to publish the `site/` directory as the publishing source, the page URL will usually be:
 
-## 本地预览
+```text
+https://<github-user-or-org>.github.io/<repo-name>/privacy.html
+```
 
-在仓库根目录运行：
+If GitHub Pages is configured to publish from the repository root and `site/` is exposed as a subdirectory, the page URL will usually be:
+
+```text
+https://<github-user-or-org>.github.io/<repo-name>/site/privacy.html
+```
+
+Before submitting the URL to Google Play, open the final URL in a browser environment that is not logged in and not connected to any private network. Confirm that the page loads directly without authentication, redirect errors, or a 404.
+
+## Pre-Launch Checks
+
+- `site/config.js`: Support email, privacy email, company or operator name, and iOS / Android download links
+- `site/content.js`: English and Chinese copy for the Privacy Policy, Terms of Use, support page, and home page
+- `site/privacy.html`: Privacy Policy page shell and SEO fallback
+- `site/terms.html`: Terms of Use page shell and SEO fallback
+- `site/support.html`: User support and public contact entry point
+
+If Google Play only needs the Privacy Policy URL, the minimum check scope is:
+
+- `privacy.html` is publicly accessible
+- The page title, product name, and contact email are correct
+- The privacy policy covers the app's current data handling, analytics, diagnostics, purchases, and third-party services
+- The page does not require login, does not depend on a dynamic API, and does not return 404
+
+## Local Preview
+
+Run this from the repository root:
 
 ```bash
 cd site
 python3 -m http.server 4173
 ```
 
-然后打开 `http://localhost:4173`。
+Then open:
 
-## 后续接入建议
+```text
+http://localhost:4173/privacy.html
+```
 
-- 商店链接、支持邮箱、法务联系信息：直接补到 `site/content.js` 或页面结构中
-- 正式上线前，先修改 `site/config.js` 里的公司名、支持邮箱、隐私邮箱与 iOS/Android 下载链接
-- 将 `site/assets/icons/qr-ios-placeholder.svg` 和 `site/assets/icons/qr-android-placeholder.svg` 替换成最终二维码
-- 如果你后面想接 GitHub Pages / Netlify / Vercel，这个目录可以直接作为部署根目录
-- 如果后面文案继续增多，建议把 `site/content.js` 再拆成按页面分离的内容文件
+## Maintenance Principles
+
+- Keep the privacy policy, terms, and support entry point stable and accessible before expanding the site into a full official website
+- Keep public legal and support copy aligned with the text shown inside the app
+- Placeholder store links, QR codes, and company details may remain until final launch details are ready, but placeholder URLs should not be submitted to Google Play
+- If these pages later move to an official website, CMS, or separate frontend project, update the Google Play Console Privacy Policy URL to the new public URL at the same time
