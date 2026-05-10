@@ -2,9 +2,9 @@ window.MUNTRIE_SITE_CONTENT = {
   en: {
     meta: {
       home: {
-        title: "Muntrie | A Full-Screen Workspace for Flow",
+        title: "Muntrie | Full-Screen Clock, Focus, and Ambient Sound",
         description:
-          "A full-screen workspace for time, atmosphere, focus, and planning.",
+          "A full-screen time display with scenes, ambient sound, focus timers, Life view, and a lightweight priority matrix.",
       },
       privacy: {
         title: "Muntrie | Privacy Policy",
@@ -28,11 +28,11 @@ window.MUNTRIE_SITE_CONTENT = {
       },
     },
     common: {
-      brandSubtitle: "A full-screen workspace that helps you get into flow.",
+      brandSubtitle: "Full-screen time, focus, sound, and light planning.",
       navExperience: "Experience",
       navFeatures: "Features",
       navScenes: "Scenes",
-      navPrinciples: "Principles",
+      navPrinciples: "Use cases",
       navHome: "Home",
       navAbout: "About",
       navSupport: "Support",
@@ -49,9 +49,9 @@ window.MUNTRIE_SITE_CONTENT = {
       ariaSceneSelector: "Scene selector",
       languageEn: "EN",
       languageZh: "中文",
-      footerTagline: "Full screen. Low noise. Built for flow.",
-      footerWorkspace: "Workspace",
-      footerExperience: "Session-first",
+      footerTagline: "Full screen. Clear time. Quiet focus.",
+      footerWorkspace: "Experience",
+      footerExperience: "How it works",
       footerProduct: "Product",
       footerLegal: "Legal",
       footerContact: "Support",
@@ -93,27 +93,27 @@ window.MUNTRIE_SITE_CONTENT = {
     },
     home: {
       hero: {
-        eyebrow: "Flow workspace",
-        title: "Full-screen flow workspace.",
-        titleLineOne: "Full-screen flow",
-        titleLineTwo: "workspace.",
+        eyebrow: "Full-screen focus app",
+        title: "A full-screen clock for focus.",
+        titleLineOne: "A full-screen clock",
+        titleLineTwo: "for focus.",
         lead:
-          "Keep time, scene, sound, focus, saved spaces, Life, and Priority Matrix around one uninterrupted surface.",
+          "See the time clearly, choose a calm background, play ambient sound or music, and start a countdown, stopwatch, or Pomodoro without leaving the screen.",
         primaryCta: "Get the app",
         secondaryCta: "See how it works",
         stats: [
           {
-            title: "Full-screen stage",
+            title: "Full-screen clock",
           },
           {
-            title: "Scene + audio",
+            title: "Scenes + sound",
           },
           {
-            title: "Spaces + matrix",
+            title: "Focus + planning",
           },
         ],
-        dockSpace: "Space",
-        dockAtmosphere: "Atmosphere",
+        dockSpace: "Scene",
+        dockAtmosphere: "Sound",
         dockFocus: "Focus",
         dockMore: "More",
       },
@@ -150,146 +150,146 @@ window.MUNTRIE_SITE_CONTENT = {
         musicLabel: "Background music",
         musicTitle: "Calm Piano",
         musicSrc: "./assets/audio/music-calm-piano.mp3",
-        label: "Flow stage",
-        sessionMetaAria: "Current Muntrie session",
-        activeSpaceLabel: "Active space",
-        activeSpaceValue: "Deep Work",
-        currentAtmosphereLabel: "Current atmosphere",
-        focusModeLabel: "Focus mode",
+        label: "Full-screen clock",
+        sessionMetaAria: "Current focus setup",
+        activeSpaceLabel: "Current setup",
+        activeSpaceValue: "Focus",
+        currentAtmosphereLabel: "Current scene",
+        focusModeLabel: "Timer mode",
         focusModeValue: "Pomodoro ready",
       },
       experience: {
-        eyebrow: "Session-first structure",
-        title: "One session holds the whole workspace.",
+        eyebrow: "Before focus begins",
+        title: "Time, background, sound, and timers stay on one screen.",
         lead:
-          "Muntrie is not a bundle of tools. Scene, audio, focus, presets, HUD, and secondary routes resolve around the current session.",
+          "The main view centers on a full-screen time display. Backgrounds, sound, and focus timers can be adjusted in place, with fewer page switches.",
         cards: [
           {
             index: "01",
-            title: "The stage is the source of context",
+            title: "Clear time display",
             body:
-              "The desktop opens as a single stage: time in the center, scene behind it, current space and focus rhythm attached to the same surface.",
+              "Large time works well on a desk, tablet stand, or second screen.",
           },
           {
             index: "02",
-            title: "Panels are layers, not pages",
+            title: "Set background and sound",
             body:
-              "Space, Atmosphere, Focus, and More arrive as quiet control layers, so the work surface stays visually continuous.",
+              "Choose image or video scenes, ambient tracks, music, and volume for the current task.",
           },
           {
             index: "03",
-            title: "A workspace can recover",
+            title: "Begin a focus rhythm",
             body:
-              "Saved spaces, local resources, and session recovery bring the scene, mix, and focus setup back together after launch.",
+              "Use countdown, stopwatch, or Pomodoro for work, study, reading, and breaks.",
           },
         ],
       },
       features: {
-        eyebrow: "Product flow",
-        title: "The core modules stay near the stage.",
+        eyebrow: "Main features",
+        title: "From time display to light planning.",
         lead:
-          "The app keeps high-frequency controls close to the current session, while Life, Matrix, and settings remain one step back.",
+          "Full-screen time, scene backgrounds, ambient sound, music, focus timers, Life view, and Priority Matrix work together without turning the screen into a dashboard.",
         cards: [
           {
-            kicker: "Main stage",
-            title: "Time stays central",
+            kicker: "Clock",
+            title: "Keep time easy to read",
             body:
-              "Digital and analog time anchor the workspace without becoming a separate clock page.",
+              "Keep a large, readable time display on a desk, tablet stand, or room screen.",
           },
           {
-            kicker: "Atmosphere",
-            title: "Scene, ambient sound, and music move together",
+            kicker: "Scenes",
+            title: "Set the visual background",
             body:
-              "The visual scene, ambient tracks, and music are edited as one atmosphere layer around the session.",
+              "Use image or video backgrounds to make the screen feel calm without hiding the time.",
+          },
+          {
+            kicker: "Sound",
+            title: "Play ambient sound and music",
+            body:
+              "Play ocean waves, forest birds, soft wind, or music, with controls for the mix.",
           },
           {
             kicker: "Focus",
-            title: "Countdown, stopwatch, and Pomodoro stay in context",
+            title: "Run timers for the current task",
             body:
-              "Focus tools can take over the rhythm without forcing the user out of the current desktop.",
-          },
-          {
-            kicker: "Immersive Spaces",
-            title: "Save the atmosphere, not just a preset name",
-            body:
-              "A space preserves the scene, audio mix, music, and focus setup so the whole working mood can return.",
+              "Run countdown, stopwatch, or Pomodoro sessions for work, study, reading, and breaks.",
           },
           {
             kicker: "Life",
-            title: "Longer perspective stays optional",
+            title: "View Life progress when useful",
             body:
-              "Life views widen the time scale when needed, without occupying the foreground of daily work.",
+              "Use a longer time scale for occasional reflection, not as another daily task list.",
           },
           {
             kicker: "Priority Matrix",
-            title: "Planning stays close, then steps back",
+            title: "Sort priorities before starting",
             body:
-              "Matrix tasks remain reachable from the same desktop, but they do not turn the workspace into a planner by default.",
+              "Use the importance and urgency matrix to decide what should come first.",
           },
         ],
       },
       scenes: {
-        eyebrow: "Atmosphere system",
-        title: "Atmosphere is a working layer.",
+        eyebrow: "Scenes and sound",
+        title: "Set a background and sound for the moment.",
         lead:
-          "Scenes are bundled with sound, music, saved spaces, and focus rhythm so the workspace can feel consistent after it returns.",
+          "Visual scenes, local ambient tracks, background music, and volume controls help the screen fit the room and task.",
         cards: [
           {
             src: "./assets/images/scene-british-columbia.jpg",
             alt: "Alpine Valley scene",
-            kicker: "Current scene",
-            title: "The scene sets the surface.",
+            kicker: "Visual background",
+            title: "Image and video backgrounds",
             body:
-              "The opening landscape is not decorative chrome. It is the same kind of visual base the app uses behind time and focus.",
+              "Choose a scene for the full-screen clock, from mist and forest to ocean and mountain views.",
           },
           {
             src: "./assets/images/hero-ocean.jpg",
             alt: "Ocean Waves scene",
-            kicker: "Sound layer",
-            title: "Audio belongs to the scene.",
+            kicker: "Ambient sound",
+            title: "Local ambient tracks",
             body:
-              "Ocean waves, forest birds, soft wind, and music stay connected to the atmosphere instead of living as unrelated switches.",
+              "Use built-in sounds such as ocean waves, forest birds, and soft wind when silence feels too empty.",
           },
           {
             src: "./assets/images/scene-forest.jpg",
             alt: "Forest Birds scene",
-            kicker: "Spaces",
-            title: "A full setup can return.",
+            kicker: "Music",
+            title: "Background music",
             body:
-              "Saved spaces bring scene, mix, and focus state back as a whole workspace, not as a checklist.",
+              "Add calm music separately from ambient sound and adjust the mix for the current task.",
           },
           {
             src: "./assets/images/scene-mist.jpg",
             alt: "Mist scene",
-            kicker: "HUD",
-            title: "Controls stay light.",
+            kicker: "Controls",
+            title: "Simple controls",
             body:
-              "HUD and secondary routes remain reachable, but the atmosphere keeps visual priority over the controls.",
+              "Common controls stay reachable on the current screen, so small adjustments do not interrupt the time display.",
           },
         ],
       },
       principles: {
-        eyebrow: "Design principles",
-        title: "The website follows the app hierarchy.",
+        eyebrow: "Use cases",
+        title: "For screens that should quietly stay useful.",
         lead:
-          "The middle of the page now mirrors Muntrie's real order: stage first, atmosphere as context, tools as quiet layers.",
+          "Use it when clear time, steady background sound, and a simple focus rhythm help more than another busy dashboard.",
         note:
-          "Information architecture, not another marketing grid.",
+          "A practical companion for desks, study rooms, reading corners, and breaks.",
         cards: [
           {
-            title: "Start from the stage",
+            title: "Work and study focus",
             body:
-              "The user should understand the full-screen workspace before meeting individual modules.",
+              "Keep time visible, reduce switching, and run a timer for the current block.",
           },
           {
-            title: "Keep the atmosphere connected",
+            title: "Reading and rest",
             body:
-              "Scene, ambient sound, music, and focus are presented as one environment layer.",
+              "Use gentle scenes and sound when you want a quieter room.",
           },
           {
-            title: "Keep secondary routes quiet",
+            title: "Light planning",
             body:
-              "Life, Matrix, settings, and legal content stay available without becoming the main visual subject.",
+              "Check the priority matrix before a session, then return to the full-screen clock.",
           },
         ],
       },
@@ -307,30 +307,30 @@ window.MUNTRIE_SITE_CONTENT = {
       },
       closing: {
         kicker: "Download",
-        title: "Bring Muntrie to your work desktop.",
+        title: "Turn your screen into a full-screen clock.",
         body:
-          "Scan for iOS or Android and start from the same full-screen flow workspace shown above.",
+          "Scan for iOS or Android and use it as a full-screen clock, focus timer, and quiet background.",
         primaryCta: "Get the app",
       },
     },
     about: {
       hero: {
         eyebrow: "About",
-        title: "Muntrie is a workspace for quiet, continuous flow.",
+        title: "A full-screen time and focus app.",
         intro:
-          "Muntrie is built around one full-screen session: time in the center, atmosphere around it, and secondary tools close enough to use without taking over the workspace.",
+          "It brings a clear clock, scene backgrounds, ambient sound, music, focus timers, Life, and Priority Matrix into a calm full-screen experience.",
       },
       product: {
         eyebrow: "Product posture",
-        title: "Stage first. Tools second.",
+        title: "Designed for the screen you keep open.",
         body:
-          "The app is not a dashboard of disconnected features. Scenes, sound, focus, saved spaces, Life, and Priority Matrix are organized around the current session so the desktop can stay whole.",
+          "The app starts with clear time and lets you add only the controls you need: background, sound, timer, Life view, or quick planning.",
       },
       cards: {
         stage: {
-          title: "Session-first",
+          title: "Full-screen first",
           body:
-            "Time, scene, ambient sound, music, focus state, and planning context stay attached to the same workspace.",
+            "Time stays large and readable, with scene and sound supporting the current setting.",
         },
         local: {
           title: "Local-first by default",
@@ -340,7 +340,7 @@ window.MUNTRIE_SITE_CONTENT = {
         boundary: {
           title: "Calm utility",
           body:
-            "Muntrie supports focus, planning, relaxation, and reflection. It is not medical, emergency, legal, or financial advice.",
+            "Supports focus, light planning, relaxation, and reflection. It is not medical, emergency, legal, or financial advice.",
         },
       },
       operations: {
@@ -457,7 +457,7 @@ window.MUNTRIE_SITE_CONTENT = {
         {
           title: "1. Overview",
           paragraphs: [
-            "Muntrie is designed as a full-screen workspace that helps you get into flow. The current app and website do not require you to create a Muntrie account before using the core experience.",
+            "Muntrie is designed as a full-screen time and focus app. The current app and website do not require you to create a Muntrie account before using the core experience.",
             "Most product state stays on your device. Some data is transmitted off-device only when premium billing, analytics, diagnostics, performance monitoring, remote configuration, or similar support services are involved.",
             "The current website is a static site and does not intentionally deploy ad tracking or analytics cookies.",
           ],
@@ -527,7 +527,7 @@ window.MUNTRIE_SITE_CONTENT = {
           title: "8. Security and age",
           bullets: [
             "Muntrie is designed to use platform-supported secure transport when data is sent to service providers, and to limit off-device transmission to the support services described in this policy.",
-            "No method of transmission or storage is perfectly secure, but Muntrie keeps the app account-free today and avoids unnecessary off-device storage for core workspace data.",
+            "No method of transmission or storage is perfectly secure, but Muntrie keeps the app account-free today and avoids unnecessary off-device storage for core experience data.",
             "Muntrie is not directed to children. If you believe a child has provided personal data through a support or billing flow, contact privacy@muntrie.com.",
           ],
         },
@@ -655,9 +655,9 @@ window.MUNTRIE_SITE_CONTENT = {
   zh: {
     meta: {
       home: {
-        title: "Muntrie | 一个让你进入心流的全屏工作桌面",
+        title: "Muntrie | 全屏时钟、专注计时与环境声音",
         description:
-          "把时间、氛围、专注与规划放进同一块全屏工作桌面。",
+          "全屏时间显示、场景背景、环境音/音乐、专注计时、Life 与轻量规划，集中在一个安静界面中。",
       },
       privacy: {
         title: "Muntrie | 隐私政策",
@@ -679,11 +679,11 @@ window.MUNTRIE_SITE_CONTENT = {
       },
     },
     common: {
-      brandSubtitle: "一个让你进入心流的全屏工作桌面。",
+      brandSubtitle: "全屏时间、专注、声音与轻量规划。",
       navExperience: "体验",
       navFeatures: "功能",
       navScenes: "场景",
-      navPrinciples: "理念",
+      navPrinciples: "适用场景",
       navHome: "首页",
       navAbout: "关于",
       navSupport: "支持",
@@ -700,9 +700,9 @@ window.MUNTRIE_SITE_CONTENT = {
       ariaSceneSelector: "场景选择",
       languageEn: "EN",
       languageZh: "中文",
-      footerTagline: "全屏、低噪、进入心流。",
-      footerWorkspace: "工作桌面",
-      footerExperience: "Session-first 结构",
+      footerTagline: "全屏显示，清楚看时间，安静进入专注。",
+      footerWorkspace: "体验",
+      footerExperience: "如何开始",
       footerProduct: "产品",
       footerLegal: "法务",
       footerContact: "支持",
@@ -738,27 +738,27 @@ window.MUNTRIE_SITE_CONTENT = {
     },
     home: {
       hero: {
-        eyebrow: "心流工作桌面",
-        title: "全屏心流桌面",
-        titleLineOne: "全屏心流",
-        titleLineTwo: "工作桌面",
+        eyebrow: "全屏专注应用",
+        title: "全屏时钟与专注界面",
+        titleLineOne: "全屏时钟",
+        titleLineTwo: "专注界面",
         lead:
-          "把时间、场景、声音、专注、沉浸空间、Life 与优先矩阵留在同一块不被打断的工作表面上。",
+          "清楚显示时间，选择适合当前环境的背景，播放环境音或音乐，并直接启动倒计时、正计时或番茄钟。",
         primaryCta: "下载应用",
         secondaryCta: "查看它如何工作",
         stats: [
           {
-            title: "全屏舞台",
+            title: "全屏时钟",
           },
           {
-            title: "场景与音频",
+            title: "场景与声音",
           },
           {
-            title: "空间与矩阵",
+            title: "专注与规划",
           },
         ],
-        dockSpace: "空间",
-        dockAtmosphere: "氛围",
+        dockSpace: "场景",
+        dockAtmosphere: "声音",
         dockFocus: "专注",
         dockMore: "更多",
       },
@@ -795,128 +795,128 @@ window.MUNTRIE_SITE_CONTENT = {
         musicLabel: "背景音乐",
         musicTitle: "舒缓钢琴",
         musicSrc: "./assets/audio/music-calm-piano.mp3",
-        label: "心流舞台",
-        sessionMetaAria: "当前 Muntrie 会话",
-        activeSpaceLabel: "当前空间",
-        activeSpaceValue: "深度工作",
-        currentAtmosphereLabel: "当前氛围",
-        focusModeLabel: "专注模式",
+        label: "全屏时钟",
+        sessionMetaAria: "当前专注设置",
+        activeSpaceLabel: "当前设置",
+        activeSpaceValue: "专注",
+        currentAtmosphereLabel: "当前场景",
+        focusModeLabel: "计时模式",
         focusModeValue: "番茄钟就绪",
       },
       experience: {
-        eyebrow: "Session-first 结构",
-        title: "一个 Session 承接整块工作桌面。",
+        eyebrow: "开始专注前",
+        title: "时间、背景、声音与计时，集中在同一屏。",
         lead:
-          "Muntrie 不是功能集合。场景、音频、专注、方案、HUD 与二级入口都围绕当前 Session 组织起来。",
+          "主界面以全屏时间显示为中心。背景、声音和专注计时都可就地调整，减少页面切换。",
         cards: [
           {
             index: "01",
-            title: "主舞台先建立上下文",
-            body: "桌面从一个舞台开始：时间在中心，场景在背后，当前空间与专注节奏附着在同一块表面上。",
+            title: "清晰时间显示",
+            body: "大尺寸时间适合放在桌面、平板支架或第二屏上。",
           },
           {
             index: "02",
-            title: "面板是层，不是新页面",
-            body: "沉浸空间、氛围、专注与更多入口以轻控制层出现，让工作表面保持连续。",
+            title: "设置背景与声音",
+            body: "根据当前任务选择图片或视频背景、环境音、音乐和音量。",
           },
           {
             index: "03",
-            title: "工作桌面可以恢复",
-            body: "沉浸空间、本地资源与 Session 恢复会把场景、混音和专注设置一起带回来。",
+            title: "进入专注节奏",
+            body: "倒计时、正计时与番茄钟可以用于工作、学习、阅读和休息。",
           },
         ],
       },
       features: {
-        eyebrow: "产品工作流",
-        title: "核心模块围绕主舞台保持近身。",
-        lead: "高频控制留在当前 Session 附近，Life、优先矩阵和设置则退后一步。",
+        eyebrow: "主要功能",
+        title: "从时间显示到轻量规划。",
+        lead: "全屏时间、场景背景、环境音与音乐、专注计时、Life 人生进度和优先级矩阵，共同服务于一次专注或休息。",
         cards: [
           {
-            kicker: "主舞台",
-            title: "时间保持在中心",
-            body: "数字与模拟时间作为整块桌面的节奏锚点，而不是被放成一个角落组件。",
+            kicker: "时钟",
+            title: "保持时间清楚可见",
+            body: "在桌面、平板支架或房间屏幕上保持大尺寸时间显示。",
           },
           {
-            kicker: "氛围",
-            title: "场景、环境音与音乐一起移动",
-            body: "视觉场景、环境音轨与背景音乐作为同一层氛围围绕 Session 编辑。",
+            kicker: "场景",
+            title: "设置背景场景",
+            body: "使用图片或视频背景营造安静环境，同时让时间保持清楚可见。",
+          },
+          {
+            kicker: "声音",
+            title: "播放环境音与音乐",
+            body: "播放海浪、森林鸟鸣、微风或音乐，并按需要调整混合比例。",
           },
           {
             kicker: "专注",
-            title: "倒计时、正计时与番茄钟留在上下文里",
-            body: "专注工具可以接管节奏，但不强迫你离开当前工作桌面。",
-          },
-          {
-            kicker: "沉浸空间",
-            title: "保存氛围，而不只是保存一个名称",
-            body: "空间会保留场景、混音、音乐与专注设置，让整套工作状态可以回来。",
+            title: "为当前任务启动计时",
+            body: "为工作、学习、阅读或休息启动倒计时、正计时与番茄钟。",
           },
           {
             kicker: "Life",
-            title: "更长尺度保持可选",
-            body: "Life 视角在需要时拉开时间尺度，但不长期占据每日工作的前景。",
+            title: "查看 Life 人生进度",
+            body: "以更长的时间尺度查看人生进度，适合偶尔打开做反思。",
           },
           {
             kicker: "优先矩阵",
-            title: "规划保持近身，然后退后",
-            body: "矩阵任务从同一块桌面进入，但默认不把工作桌面变成规划工具。",
+            title: "整理任务优先级",
+            body: "用重要/紧急矩阵判断先做什么，再回到专注界面。",
           },
         ],
       },
       scenes: {
-        eyebrow: "氛围系统",
-        title: "氛围是一层工作环境。",
-        lead: "场景会带着声音、音乐、沉浸空间与专注节奏一起回来，让工作桌面保持一致。",
+        eyebrow: "场景与声音",
+        title: "为当前任务设置背景与声音。",
+        lead: "图片/视频场景、本地环境音、背景音乐和音量控制，让屏幕更适合当前房间与任务。",
         cards: [
           {
             src: "./assets/images/scene-british-columbia.jpg",
             alt: "高山山谷场景",
-            kicker: "当前场景",
-            title: "场景先建立表面。",
-            body: "首屏的风景不是装饰，而是 App 在时间与专注背后使用的同一类视觉基底。",
+            kicker: "视觉背景",
+            title: "图片与视频背景",
+            body: "为全屏时钟选择场景，从薄雾、森林到海洋和山谷。",
           },
           {
             src: "./assets/images/hero-ocean.jpg",
             alt: "Ocean Waves 场景",
-            kicker: "声音层",
-            title: "音频属于场景。",
-            body: "海浪、森林、风声与音乐跟着氛围组织，而不是散落成互不相关的开关。",
+            kicker: "环境音",
+            title: "本地环境音",
+            body: "房间过于安静时，可以使用海浪、森林鸟鸣和微风等内置声音。",
           },
           {
             src: "./assets/images/scene-forest.jpg",
             alt: "Forest Birds 场景",
-            kicker: "沉浸空间",
-            title: "整套设置可以回来。",
-            body: "沉浸空间让场景、混音与专注状态作为一块工作桌面恢复，而不是重新勾选一遍。",
+            kicker: "音乐",
+            title: "背景音乐",
+            body: "环境音之外可以单独加入舒缓音乐，并按当前任务调整混合比例。",
           },
           {
             src: "./assets/images/scene-mist.jpg",
             alt: "Mist 场景",
-            kicker: "HUD",
-            title: "控制层保持轻。",
-            body: "HUD 与二级入口可达，但视觉优先级仍然留给当前氛围和专注节奏。",
+            kicker: "控制",
+            title: "常用控制保持可达",
+            body: "常用设置可以在当前界面中完成，不需要频繁离开时间显示。",
           },
         ],
       },
       principles: {
-        eyebrow: "设计理念",
-        title: "官网跟随 App 的真实层级。",
+        eyebrow: "适用场景",
+        title: "适合需要安静陪伴的屏幕。",
         lead:
-          "中段内容现在按 Muntrie 的真实顺序组织：先是主舞台，再是氛围上下文，最后是安静的工具层。",
+          "适合需要清楚时间、稳定背景声音和简单专注节奏的时刻，而不是又一个复杂看板。",
         note:
-          "这是信息架构，不是再做一组营销卡片。",
+          "适用于办公桌、学习空间、阅读角和短暂休息。",
         cards: [
           {
-            title: "先讲主舞台",
-            body: "用户先理解全屏工作桌面，再进入具体模块。",
+            title: "办公与学习专注",
+            body: "让时间保持可见，减少来回切换，并为当前任务启动计时。",
           },
           {
-            title: "让氛围保持连接",
-            body: "场景、环境音、音乐与专注作为同一层环境呈现。",
+            title: "阅读与休息",
+            body: "使用轻柔场景和背景声音，让屏幕保持安静陪伴。",
           },
           {
-            title: "二级入口保持安静",
-            body: "Life、矩阵、设置与法务内容保持可达，但不成为页面主视觉。",
+            title: "轻量规划",
+            body: "开始前查看优先级矩阵，整理完事项后回到全屏时钟。",
           },
         ],
       },
@@ -934,36 +934,36 @@ window.MUNTRIE_SITE_CONTENT = {
       },
       closing: {
         kicker: "下载",
-        title: "把 Muntrie 放进你的工作桌面。",
-        body: "扫码下载 iOS 或 Android 版本，从第一眼开始进入同一块全屏心流桌面。",
+        title: "让屏幕成为全屏时钟。",
+        body: "扫码下载 iOS 或 Android 版本，用作全屏时钟、专注计时器和安静背景。",
         primaryCta: "下载应用",
       },
     },
     about: {
       hero: {
         eyebrow: "关于",
-        title: "Muntrie 是一块安静、连续的心流工作桌面。",
+        title: "一款全屏时间与专注应用。",
         intro:
-          "Muntrie 围绕一个全屏 Session 组织体验：时间在中心，氛围在周围，二级工具保持可达，但不接管当前工作桌面。",
+          "它把清晰时钟、场景背景、环境音、音乐、专注计时、Life 和优先级矩阵放进一个安静的全屏体验中。",
       },
       product: {
         eyebrow: "产品方式",
-        title: "先有主舞台，再有工具层。",
+        title: "围绕长时间停留的屏幕设计。",
         body:
-          "它不是一组互相分散的功能面板。场景、声音、专注、已保存空间、Life 与优先矩阵，都围绕当前 Session 组织，让桌面保持完整。",
+          "以清晰时间为起点，再按需要加入背景、声音、计时、Life 视图或简单规划。",
       },
       cards: {
         stage: {
-          title: "Session-first",
-          body: "时间、场景、环境音、音乐、专注状态与规划上下文，附着在同一块工作桌面上。",
+          title: "全屏优先",
+          body: "时间保持大而清楚，场景和声音服务于当前环境。",
         },
         local: {
           title: "默认本地优先",
-          body: "核心体验当前不要求创建 Muntrie 账号，大部分产品状态也按保留在设备本地来设计。",
+          body: "核心体验当前不要求创建 Muntrie 账号，大部分产品状态也以保留在设备本地为默认设计。",
         },
         boundary: {
           title: "克制的效率工具",
-          body: "Muntrie 用于支持专注、规划、放松与反思，不构成医疗、紧急、法律或财务建议。",
+          body: "用于支持专注、轻量规划、放松与反思，不构成医疗、紧急、法律或财务建议。",
         },
       },
       operations: {
@@ -1076,7 +1076,7 @@ window.MUNTRIE_SITE_CONTENT = {
         {
           title: "1. 总览",
           paragraphs: [
-            "Muntrie 被设计成一块帮助你进入心流的全屏工作桌面。当前 app 与官网都不要求你先创建 Muntrie 账号才能使用核心体验。",
+            "Muntrie 被设计成一款全屏时间与专注应用。当前 app 与官网都不要求你先创建 Muntrie 账号才能使用核心体验。",
             "大多数产品状态都保留在你的设备上。只有在 Premium 计费、分析、诊断、性能监测、远程配置或类似支持服务参与时，部分数据才会离开设备。",
             "当前官网是一个静态站点，不会主动部署广告追踪或分析类 cookie。",
           ],
@@ -1146,7 +1146,7 @@ window.MUNTRIE_SITE_CONTENT = {
           title: "8. 安全与年龄",
           bullets: [
             "当数据发送给服务提供方时，Muntrie 会按平台支持的安全传输方式设计，并把离开设备的数据限制在本政策描述的支持服务范围内。",
-            "任何传输或存储方式都无法保证绝对安全，但 Muntrie 当前保持无账号设计，并避免把核心工作桌面数据不必要地存到设备外。",
+            "任何传输或存储方式都无法保证绝对安全，但 Muntrie 当前保持无账号设计，并避免把核心体验数据不必要地存到设备外。",
             "Muntrie 并非面向儿童设计。若你认为儿童通过支持、计费或其他流程提供了个人数据，请联系 privacy@muntrie.com。",
           ],
         },

@@ -3,18 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Muntrie | A Full-Screen Workspace for Flow</title>
+    <title>Muntrie | Full-Screen Clock, Focus, and Ambient Sound</title>
     <meta
       id="page-description"
       name="description"
-      content="A full-screen workspace for time, atmosphere, focus, and planning."
+      content="A full-screen time display with scenes, ambient sound, focus timers, Life view, and a lightweight priority matrix."
     />
     <meta name="theme-color" content="#11171d" />
     <meta id="og-title" property="og:title" content="Muntrie" />
     <meta
       id="og-description"
       property="og:description"
-      content="A full-screen workspace for time, atmosphere, focus, and planning."
+      content="A full-screen time display with scenes, ambient sound, focus timers, Life view, and a lightweight priority matrix."
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="./assets/icons/brand-icon.png" />
@@ -42,14 +42,14 @@
           "@type": "WebSite",
           "name": "Muntrie",
           "url": "https://muntrie.app/",
-          "description": "A full-screen workspace for time, atmosphere, focus, and planning."
+          "description": "A full-screen time display with scenes, ambient sound, focus timers, Life view, and a lightweight priority matrix."
         },
         {
           "@type": "SoftwareApplication",
           "name": "Muntrie",
           "operatingSystem": "iOS, Android",
           "applicationCategory": "LifestyleApplication",
-          "description": "Muntrie turns your screen into a full-screen workspace where time, scene, sound, focus, and planning stay in one uninterrupted flow.",
+          "description": "Muntrie turns your screen into a full-screen clock with scene backgrounds, ambient sound, music, focus timers, Life view, and lightweight planning.",
           "offers": {
             "@type": "Offer",
             "price": "0",
@@ -78,7 +78,7 @@
         />
         <span class="brand-copy">
           <strong>Muntrie</strong>
-          <small data-i18n="common.brandSubtitle">A full-screen workspace that helps you get into flow.</small>
+          <small data-i18n="common.brandSubtitle">Full-screen time, focus, sound, and light planning.</small>
         </span>
       </a>
 
@@ -105,7 +105,7 @@
         <a href="#experience" data-i18n="common.navExperience">Experience</a>
         <a href="#features" data-i18n="common.navFeatures">Features</a>
         <a href="#scenes" data-i18n="common.navScenes">Scenes</a>
-        <a href="#principles" data-i18n="common.navPrinciples">Principles</a>
+        <a href="#principles" data-i18n="common.navPrinciples">Use cases</a>
         <span class="nav-active-indicator" data-nav-active-indicator aria-hidden="true"></span>
         <a class="nav-drawer-cta" href="#download" data-i18n="common.headerExplore">Get the app</a>
       </nav>
@@ -148,13 +148,13 @@
       >
         <div class="hero-grid">
           <div class="hero-copy" data-reveal>
-            <p class="eyebrow" data-i18n="home.hero.eyebrow">Flow workspace</p>
+            <p class="eyebrow" data-i18n="home.hero.eyebrow">Full-screen focus app</p>
             <h1 class="hero-title" id="hero-title" data-i18n="home.hero.title">
-              Full-screen flow workspace.
+              A full-screen clock for focus.
             </h1>
             <p class="hero-lead" data-i18n="home.hero.lead">
-              Keep time, scene, sound, focus, saved spaces, Life, and Priority Matrix around one
-              uninterrupted surface.
+              See the time clearly, choose a calm background, play ambient sound or music, and start
+              a countdown, stopwatch, or Pomodoro without leaving the screen.
             </p>
 
             <div class="hero-actions">
@@ -240,19 +240,19 @@
 
               <div
                 class="hero-stage-meta"
-                aria-label="Current Muntrie session"
+                aria-label="Current focus setup"
                 data-i18n-aria-label="home.stage.sessionMetaAria"
               >
                 <div class="hero-stage-meta-item" data-reveal>
-                  <span data-i18n="home.stage.activeSpaceLabel">Active space</span>
-                  <strong data-i18n="home.stage.activeSpaceValue">Deep Work</strong>
+                  <span data-i18n="home.stage.activeSpaceLabel">Current setup</span>
+                  <strong data-i18n="home.stage.activeSpaceValue">Focus</strong>
                 </div>
                 <div class="hero-stage-meta-item" data-reveal>
-                  <span data-i18n="home.stage.currentAtmosphereLabel">Current atmosphere</span>
+                  <span data-i18n="home.stage.currentAtmosphereLabel">Current scene</span>
                   <strong data-preview-scene-value>Misty Woodland</strong>
                 </div>
                 <div class="hero-stage-meta-item" data-reveal>
-                  <span data-i18n="home.stage.focusModeLabel">Focus mode</span>
+                  <span data-i18n="home.stage.focusModeLabel">Timer mode</span>
                   <strong data-i18n="home.stage.focusModeValue">Pomodoro ready</strong>
                 </div>
               </div>
@@ -267,11 +267,11 @@
       <section class="section experience" id="experience" aria-labelledby="experience-title">
         <div class="section-shell section-shell-split">
           <div class="section-heading" data-reveal>
-            <p class="eyebrow" data-i18n="home.experience.eyebrow">Workspace structure</p>
-            <h2 id="experience-title" data-i18n="home.experience.title">A workspace shaped for uninterrupted flow.</h2>
+            <p class="eyebrow" data-i18n="home.experience.eyebrow">Before focus begins</p>
+            <h2 id="experience-title" data-i18n="home.experience.title">Time, background, sound, and timers stay on one screen.</h2>
             <p data-i18n="home.experience.lead">
-              The website now follows the same product shape as the app: one stage, layered
-              controls, recoverable state.
+              The main view centers on a full-screen time display. Backgrounds, sound, and focus
+              timers can be adjusted in place, with fewer page switches.
             </p>
           </div>
 
@@ -284,10 +284,11 @@
       <section class="section feature-section" id="features" aria-labelledby="features-title">
         <div class="section-shell">
           <div class="section-heading" data-reveal>
-            <p class="eyebrow" data-i18n="home.features.eyebrow">Core modules</p>
-            <h2 id="features-title" data-i18n="home.features.title">Time, atmosphere, focus, and planning in one full-screen workspace.</h2>
+            <p class="eyebrow" data-i18n="home.features.eyebrow">Main features</p>
+            <h2 id="features-title" data-i18n="home.features.title">From time display to light planning.</h2>
             <p data-i18n="home.features.lead">
-              Everything you need for flow stays close enough to use and light enough to ignore.
+              Full-screen time, scene backgrounds, ambient sound, music, focus timers, Life view, and
+              Priority Matrix work together without turning the screen into a dashboard.
             </p>
           </div>
 
@@ -300,10 +301,11 @@
       <section class="section scene-section" id="scenes" aria-labelledby="scenes-title">
         <div class="section-shell">
           <div class="section-heading" data-reveal>
-            <p class="eyebrow" data-i18n="home.scenes.eyebrow">Scenes</p>
-            <h2 id="scenes-title" data-i18n="home.scenes.title">Real scenes, not decoration.</h2>
+            <p class="eyebrow" data-i18n="home.scenes.eyebrow">Scenes and sound</p>
+            <h2 id="scenes-title" data-i18n="home.scenes.title">Set a background and sound for the moment.</h2>
             <p data-i18n="home.scenes.lead">
-              The website opens with the same bundled scene language that shapes Muntrie's in-app atmosphere.
+              Visual scenes, local ambient tracks, background music, and volume controls help the
+              screen fit the room and task.
             </p>
           </div>
 
@@ -316,13 +318,14 @@
       <section class="section principle-section" id="principles" aria-labelledby="principles-title">
         <div class="section-shell section-shell-split">
           <div class="section-heading section-heading-principles" data-reveal>
-            <p class="eyebrow" data-i18n="home.principles.eyebrow">Design principles</p>
-            <h2 id="principles-title" data-i18n="home.principles.title">Three rules keep the workspace in flow.</h2>
+            <p class="eyebrow" data-i18n="home.principles.eyebrow">Use cases</p>
+            <h2 id="principles-title" data-i18n="home.principles.title">For screens that should quietly stay useful.</h2>
             <p data-i18n="home.principles.lead">
-              Stay full screen. Keep atmosphere continuous. Let secondary routes step back.
+              Use it when clear time, steady background sound, and a simple focus rhythm help more
+              than another busy dashboard.
             </p>
             <p class="section-heading-note" data-i18n="home.principles.note">
-              These are ordering rules, not another feature list.
+              A practical companion for desks, study rooms, reading corners, and breaks.
             </p>
           </div>
 
@@ -336,9 +339,10 @@
         <div class="closing-panel glass" data-reveal>
           <div class="closing-copy">
             <p class="closing-kicker" data-i18n="home.closing.kicker">Download</p>
-            <h2 id="download-title" data-i18n="home.closing.title">Bring Muntrie to your work desktop.</h2>
+            <h2 id="download-title" data-i18n="home.closing.title">Turn your screen into a full-screen clock.</h2>
             <p data-i18n="home.closing.body">
-              Scan for iOS or Android and start from the same full-screen flow workspace shown above.
+              Scan for iOS or Android and use it as a full-screen clock, focus timer, and quiet
+              background.
             </p>
           </div>
 
@@ -351,12 +355,12 @@
       <div class="global-footer-inner">
         <div class="global-footer-directory" aria-label="Footer">
           <nav class="global-footer-column" aria-labelledby="global-footer-workspace">
-            <h2 id="global-footer-workspace" data-i18n="common.footerWorkspace">Workspace</h2>
+            <h2 id="global-footer-workspace" data-i18n="common.footerWorkspace">Experience</h2>
             <a href="#top" data-i18n="common.navHome">Home</a>
-            <a href="#experience" data-i18n="common.footerExperience">Session-first</a>
+            <a href="#experience" data-i18n="common.footerExperience">How it works</a>
             <a href="#features" data-i18n="common.navFeatures">Features</a>
             <a href="#scenes" data-i18n="common.navScenes">Scenes</a>
-            <a href="#principles" data-i18n="common.navPrinciples">Principles</a>
+            <a href="#principles" data-i18n="common.navPrinciples">Use cases</a>
           </nav>
 
           <nav class="global-footer-column" aria-labelledby="global-footer-product">
