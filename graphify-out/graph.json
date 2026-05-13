@@ -1,0 +1,2795 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "config.js",
+      "file_type": "code",
+      "source_file": "config.js",
+      "source_location": "L1",
+      "id": "config_js",
+      "community": 13,
+      "norm_label": "config.js"
+    },
+    {
+      "label": "script.js",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L1",
+      "id": "script_js",
+      "community": 0,
+      "norm_label": "script.js"
+    },
+    {
+      "label": "localeButtons",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L6",
+      "id": "muntrie_website_script_localebuttons",
+      "community": 0,
+      "norm_label": "localebuttons"
+    },
+    {
+      "label": "yearNodes",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L7",
+      "id": "muntrie_website_script_yearnodes",
+      "community": 0,
+      "norm_label": "yearnodes"
+    },
+    {
+      "label": "heroNode",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L8",
+      "id": "muntrie_website_script_heronode",
+      "community": 0,
+      "norm_label": "heronode"
+    },
+    {
+      "label": "liveTimeNode",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L9",
+      "id": "muntrie_website_script_livetimenode",
+      "community": 0,
+      "norm_label": "livetimenode"
+    },
+    {
+      "label": "stageBackgroundsNode",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L10",
+      "id": "muntrie_website_script_stagebackgroundsnode",
+      "community": 0,
+      "norm_label": "stagebackgroundsnode"
+    },
+    {
+      "label": "stageCenterNode",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L11",
+      "id": "muntrie_website_script_stagecenternode",
+      "community": 0,
+      "norm_label": "stagecenternode"
+    },
+    {
+      "label": "deviceShellNode",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L12",
+      "id": "muntrie_website_script_deviceshellnode",
+      "community": 0,
+      "norm_label": "deviceshellnode"
+    },
+    {
+      "label": "previewSoundButton",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L13",
+      "id": "muntrie_website_script_previewsoundbutton",
+      "community": 0,
+      "norm_label": "previewsoundbutton"
+    },
+    {
+      "label": "previewSoundLabelNode",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L14",
+      "id": "muntrie_website_script_previewsoundlabelnode",
+      "community": 0,
+      "norm_label": "previewsoundlabelnode"
+    },
+    {
+      "label": "previewAmbientValueNodes",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L15",
+      "id": "muntrie_website_script_previewambientvaluenodes",
+      "community": 0,
+      "norm_label": "previewambientvaluenodes"
+    },
+    {
+      "label": "previewMusicValueNodes",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L16",
+      "id": "muntrie_website_script_previewmusicvaluenodes",
+      "community": 0,
+      "norm_label": "previewmusicvaluenodes"
+    },
+    {
+      "label": "previewSceneValueNodes",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L17",
+      "id": "muntrie_website_script_previewscenevaluenodes",
+      "community": 0,
+      "norm_label": "previewscenevaluenodes"
+    },
+    {
+      "label": "previewAmbientAudioNode",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L18",
+      "id": "muntrie_website_script_previewambientaudionode",
+      "community": 0,
+      "norm_label": "previewambientaudionode"
+    },
+    {
+      "label": "previewMusicAudioNode",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L19",
+      "id": "muntrie_website_script_previewmusicaudionode",
+      "community": 0,
+      "norm_label": "previewmusicaudionode"
+    },
+    {
+      "label": "navToggleNode",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L20",
+      "id": "muntrie_website_script_navtogglenode",
+      "community": 0,
+      "norm_label": "navtogglenode"
+    },
+    {
+      "label": "siteNavNode",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L21",
+      "id": "muntrie_website_script_sitenavnode",
+      "community": 0,
+      "norm_label": "sitenavnode"
+    },
+    {
+      "label": "siteHeaderNode",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L22",
+      "id": "muntrie_website_script_siteheadernode",
+      "community": 0,
+      "norm_label": "siteheadernode"
+    },
+    {
+      "label": "navIndicatorNode",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L23",
+      "id": "muntrie_website_script_navindicatornode",
+      "community": 0,
+      "norm_label": "navindicatornode"
+    },
+    {
+      "label": "timeSlotNodes",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L24",
+      "id": "muntrie_website_script_timeslotnodes",
+      "community": 0,
+      "norm_label": "timeslotnodes"
+    },
+    {
+      "label": "stageBackgroundEntries",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L34",
+      "id": "muntrie_website_script_stagebackgroundentries",
+      "community": 0,
+      "norm_label": "stagebackgroundentries"
+    },
+    {
+      "label": "getPath()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L41",
+      "id": "muntrie_website_script_getpath",
+      "community": 3,
+      "norm_label": "getpath()"
+    },
+    {
+      "label": "clamp()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L45",
+      "id": "muntrie_website_script_clamp",
+      "community": 9,
+      "norm_label": "clamp()"
+    },
+    {
+      "label": "escapeHtml()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L49",
+      "id": "muntrie_website_script_escapehtml",
+      "community": 7,
+      "norm_label": "escapehtml()"
+    },
+    {
+      "label": "escapeCssUrl()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L68",
+      "id": "muntrie_website_script_escapecssurl",
+      "community": 4,
+      "norm_label": "escapecssurl()"
+    },
+    {
+      "label": "cssImageUrl()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L72",
+      "id": "muntrie_website_script_cssimageurl",
+      "community": 4,
+      "norm_label": "cssimageurl()"
+    },
+    {
+      "label": "buildCssImageValue()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L76",
+      "id": "muntrie_website_script_buildcssimagevalue",
+      "community": 4,
+      "norm_label": "buildcssimagevalue()"
+    },
+    {
+      "label": "renderImageSourceAttributes()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L88",
+      "id": "muntrie_website_script_renderimagesourceattributes",
+      "community": 7,
+      "norm_label": "renderimagesourceattributes()"
+    },
+    {
+      "label": "resolveLocale()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L98",
+      "id": "muntrie_website_script_resolvelocale",
+      "community": 0,
+      "norm_label": "resolvelocale()"
+    },
+    {
+      "label": "updateMeta()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L109",
+      "id": "muntrie_website_script_updatemeta",
+      "community": 3,
+      "norm_label": "updatemeta()"
+    },
+    {
+      "label": "applyTextContent()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L129",
+      "id": "muntrie_website_script_applytextcontent",
+      "community": 3,
+      "norm_label": "applytextcontent()"
+    },
+    {
+      "label": "renderConfigLinks()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L156",
+      "id": "muntrie_website_script_renderconfiglinks",
+      "community": 3,
+      "norm_label": "renderconfiglinks()"
+    },
+    {
+      "label": "getContactEmail()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L168",
+      "id": "muntrie_website_script_getcontactemail",
+      "community": 6,
+      "norm_label": "getcontactemail()"
+    },
+    {
+      "label": "renderHome()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L185",
+      "id": "muntrie_website_script_renderhome",
+      "community": 6,
+      "norm_label": "renderhome()"
+    },
+    {
+      "label": "getDownloadCardState()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L263",
+      "id": "muntrie_website_script_getdownloadcardstate",
+      "community": 7,
+      "norm_label": "getdownloadcardstate()"
+    },
+    {
+      "label": "getStoreBadgeMeta()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L272",
+      "id": "muntrie_website_script_getstorebadgemeta",
+      "community": 7,
+      "norm_label": "getstorebadgemeta()"
+    },
+    {
+      "label": "renderStoreBadge()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L302",
+      "id": "muntrie_website_script_renderstorebadge",
+      "community": 7,
+      "norm_label": "renderstorebadge()"
+    },
+    {
+      "label": "renderClosingDownloadCard()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L319",
+      "id": "muntrie_website_script_renderclosingdownloadcard",
+      "community": 7,
+      "norm_label": "renderclosingdownloadcard()"
+    },
+    {
+      "label": "renderStageBackgrounds()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L332",
+      "id": "muntrie_website_script_renderstagebackgrounds",
+      "community": 4,
+      "norm_label": "renderstagebackgrounds()"
+    },
+    {
+      "label": "renderStageBackground()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L351",
+      "id": "muntrie_website_script_renderstagebackground",
+      "community": 4,
+      "norm_label": "renderstagebackground()"
+    },
+    {
+      "label": "renderActiveStageBackground()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L360",
+      "id": "muntrie_website_script_renderactivestagebackground",
+      "community": 4,
+      "norm_label": "renderactivestagebackground()"
+    },
+    {
+      "label": "renderStageIndicators()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L367",
+      "id": "muntrie_website_script_renderstageindicators",
+      "community": 4,
+      "norm_label": "renderstageindicators()"
+    },
+    {
+      "label": "updateStageIndicators()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L392",
+      "id": "muntrie_website_script_updatestageindicators",
+      "community": 4,
+      "norm_label": "updatestageindicators()"
+    },
+    {
+      "label": "switchToStageBackground()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L401",
+      "id": "muntrie_website_script_switchtostagebackground",
+      "community": 4,
+      "norm_label": "switchtostagebackground()"
+    },
+    {
+      "label": "renderStagePreview()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L414",
+      "id": "muntrie_website_script_renderstagepreview",
+      "community": 6,
+      "norm_label": "renderstagepreview()"
+    },
+    {
+      "label": "getActiveStageEntry()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L419",
+      "id": "muntrie_website_script_getactivestageentry",
+      "community": 5,
+      "norm_label": "getactivestageentry()"
+    },
+    {
+      "label": "applyPreviewOrientation()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L423",
+      "id": "muntrie_website_script_applyprevieworientation",
+      "community": 6,
+      "norm_label": "applyprevieworientation()"
+    },
+    {
+      "label": "updateActiveStagePreview()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L430",
+      "id": "muntrie_website_script_updateactivestagepreview",
+      "community": 5,
+      "norm_label": "updateactivestagepreview()"
+    },
+    {
+      "label": "syncPreviewAudioSources()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L453",
+      "id": "muntrie_website_script_syncpreviewaudiosources",
+      "community": 5,
+      "norm_label": "syncpreviewaudiosources()"
+    },
+    {
+      "label": "syncPreviewAudio()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L475",
+      "id": "muntrie_website_script_syncpreviewaudio",
+      "community": 5,
+      "norm_label": "syncpreviewaudio()"
+    },
+    {
+      "label": "updatePreviewSoundUi()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L488",
+      "id": "muntrie_website_script_updatepreviewsoundui",
+      "community": 5,
+      "norm_label": "updatepreviewsoundui()"
+    },
+    {
+      "label": "playPreviewAudio()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L502",
+      "id": "muntrie_website_script_playpreviewaudio",
+      "community": 5,
+      "norm_label": "playpreviewaudio()"
+    },
+    {
+      "label": "pausePreviewAudio()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L515",
+      "id": "muntrie_website_script_pausepreviewaudio",
+      "community": 5,
+      "norm_label": "pausepreviewaudio()"
+    },
+    {
+      "label": "togglePreviewSound()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L520",
+      "id": "muntrie_website_script_togglepreviewsound",
+      "community": 5,
+      "norm_label": "togglepreviewsound()"
+    },
+    {
+      "label": "stopStageBackgroundMotion()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L537",
+      "id": "muntrie_website_script_stopstagebackgroundmotion",
+      "community": 4,
+      "norm_label": "stopstagebackgroundmotion()"
+    },
+    {
+      "label": "setupStageBackgroundMotion()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L541",
+      "id": "muntrie_website_script_setupstagebackgroundmotion",
+      "community": 4,
+      "norm_label": "setupstagebackgroundmotion()"
+    },
+    {
+      "label": "syncStageClockLayout()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L551",
+      "id": "muntrie_website_script_syncstageclocklayout",
+      "community": 9,
+      "norm_label": "syncstageclocklayout()"
+    },
+    {
+      "label": "setupStageClockLayoutObserver()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L584",
+      "id": "muntrie_website_script_setupstageclocklayoutobserver",
+      "community": 9,
+      "norm_label": "setupstageclocklayoutobserver()"
+    },
+    {
+      "label": "getLegalSectionOutlineMeta()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L596",
+      "id": "muntrie_website_script_getlegalsectionoutlinemeta",
+      "community": 0,
+      "norm_label": "getlegalsectionoutlinemeta()"
+    },
+    {
+      "label": "renderLegalPage()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L615",
+      "id": "muntrie_website_script_renderlegalpage",
+      "community": 6,
+      "norm_label": "renderlegalpage()"
+    },
+    {
+      "label": "renderSimpleCards()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L733",
+      "id": "muntrie_website_script_rendersimplecards",
+      "community": 6,
+      "norm_label": "rendersimplecards()"
+    },
+    {
+      "label": "updateLiveStageClock()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L739",
+      "id": "muntrie_website_script_updatelivestageclock",
+      "community": 3,
+      "norm_label": "updatelivestageclock()"
+    },
+    {
+      "label": "setupRevealObserver()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L764",
+      "id": "muntrie_website_script_setuprevealobserver",
+      "community": 3,
+      "norm_label": "setuprevealobserver()"
+    },
+    {
+      "label": "updateStickyHeaderState()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L793",
+      "id": "muntrie_website_script_updatestickyheaderstate",
+      "community": 10,
+      "norm_label": "updatestickyheaderstate()"
+    },
+    {
+      "label": "syncActiveNavIndicator()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L798",
+      "id": "muntrie_website_script_syncactivenavindicator",
+      "community": 0,
+      "norm_label": "syncactivenavindicator()"
+    },
+    {
+      "label": "scheduleActiveNavIndicatorSync()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L819",
+      "id": "muntrie_website_script_scheduleactivenavindicatorsync",
+      "community": 3,
+      "norm_label": "scheduleactivenavindicatorsync()"
+    },
+    {
+      "label": "setActiveNavLink()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L832",
+      "id": "muntrie_website_script_setactivenavlink",
+      "community": 3,
+      "norm_label": "setactivenavlink()"
+    },
+    {
+      "label": "getSectionAnchorTarget()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L842",
+      "id": "muntrie_website_script_getsectionanchortarget",
+      "community": 11,
+      "norm_label": "getsectionanchortarget()"
+    },
+    {
+      "label": "scrollToHashTarget()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L859",
+      "id": "muntrie_website_script_scrolltohashtarget",
+      "community": 11,
+      "norm_label": "scrolltohashtarget()"
+    },
+    {
+      "label": "alignCurrentHashTarget()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L892",
+      "id": "muntrie_website_script_aligncurrenthashtarget",
+      "community": 3,
+      "norm_label": "aligncurrenthashtarget()"
+    },
+    {
+      "label": "syncActiveNavSection()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L912",
+      "id": "muntrie_website_script_syncactivenavsection",
+      "community": 3,
+      "norm_label": "syncactivenavsection()"
+    },
+    {
+      "label": "applyLocale()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L952",
+      "id": "muntrie_website_script_applylocale",
+      "community": 3,
+      "norm_label": "applylocale()"
+    },
+    {
+      "label": "bindPreviewControls()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L970",
+      "id": "muntrie_website_script_bindpreviewcontrols",
+      "community": 0,
+      "norm_label": "bindpreviewcontrols()"
+    },
+    {
+      "label": "bindLocaleButtons()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L976",
+      "id": "muntrie_website_script_bindlocalebuttons",
+      "community": 0,
+      "norm_label": "bindlocalebuttons()"
+    },
+    {
+      "label": "createNavOverlay()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L988",
+      "id": "muntrie_website_script_createnavoverlay",
+      "community": 12,
+      "norm_label": "createnavoverlay()"
+    },
+    {
+      "label": "openNavDrawer()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L997",
+      "id": "muntrie_website_script_opennavdrawer",
+      "community": 12,
+      "norm_label": "opennavdrawer()"
+    },
+    {
+      "label": "closeNavDrawer()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L1006",
+      "id": "muntrie_website_script_closenavdrawer",
+      "community": 0,
+      "norm_label": "closenavdrawer()"
+    },
+    {
+      "label": "bindNavToggle()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L1014",
+      "id": "muntrie_website_script_bindnavtoggle",
+      "community": 0,
+      "norm_label": "bindnavtoggle()"
+    },
+    {
+      "label": "bindInPageAnchors()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L1041",
+      "id": "muntrie_website_script_bindinpageanchors",
+      "community": 0,
+      "norm_label": "bindinpageanchors()"
+    },
+    {
+      "label": "setupActiveNavObserver()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L1062",
+      "id": "muntrie_website_script_setupactivenavobserver",
+      "community": 3,
+      "norm_label": "setupactivenavobserver()"
+    },
+    {
+      "label": "setupStickyHeader()",
+      "file_type": "code",
+      "source_file": "script.js",
+      "source_location": "L1097",
+      "id": "muntrie_website_script_setupstickyheader",
+      "community": 10,
+      "norm_label": "setupstickyheader()"
+    },
+    {
+      "label": "content.js",
+      "file_type": "code",
+      "source_file": "content.js",
+      "source_location": "L1",
+      "id": "content_js",
+      "community": 14,
+      "norm_label": "content.js"
+    },
+    {
+      "label": "performance-check.mjs",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L1",
+      "id": "tools_performance_check_mjs",
+      "community": 1,
+      "norm_label": "performance-check.mjs"
+    },
+    {
+      "label": "root",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L4",
+      "id": "tools_performance_check_root",
+      "community": 1,
+      "norm_label": "root"
+    },
+    {
+      "label": "read()",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L6",
+      "id": "tools_performance_check_read",
+      "community": 1,
+      "norm_label": "read()"
+    },
+    {
+      "label": "exists()",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L7",
+      "id": "tools_performance_check_exists",
+      "community": 1,
+      "norm_label": "exists()"
+    },
+    {
+      "label": "sizeOf()",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L8",
+      "id": "tools_performance_check_sizeof",
+      "community": 1,
+      "norm_label": "sizeof()"
+    },
+    {
+      "label": "failures",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L10",
+      "id": "tools_performance_check_failures",
+      "community": 1,
+      "norm_label": "failures"
+    },
+    {
+      "label": "assert()",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L12",
+      "id": "tools_performance_check_assert",
+      "community": 1,
+      "norm_label": "assert()"
+    },
+    {
+      "label": "runtimeFiles",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L16",
+      "id": "tools_performance_check_runtimefiles",
+      "community": 1,
+      "norm_label": "runtimefiles"
+    },
+    {
+      "label": "runtimeText",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L30",
+      "id": "tools_performance_check_runtimetext",
+      "community": 1,
+      "norm_label": "runtimetext"
+    },
+    {
+      "label": "body",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L40",
+      "id": "tools_performance_check_body",
+      "community": 1,
+      "norm_label": "body"
+    },
+    {
+      "label": "optimizedImages",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L47",
+      "id": "tools_performance_check_optimizedimages",
+      "community": 1,
+      "norm_label": "optimizedimages"
+    },
+    {
+      "label": "script",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L75",
+      "id": "tools_performance_check_script",
+      "community": 1,
+      "norm_label": "script"
+    },
+    {
+      "label": "syncPreviewAudioStart",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L76",
+      "id": "tools_performance_check_syncpreviewaudiostart",
+      "community": 1,
+      "norm_label": "syncpreviewaudiostart"
+    },
+    {
+      "label": "togglePreviewSoundStart",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L77",
+      "id": "tools_performance_check_togglepreviewsoundstart",
+      "community": 1,
+      "norm_label": "togglepreviewsoundstart"
+    },
+    {
+      "label": "syncPreviewAudioBody",
+      "file_type": "code",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L82",
+      "id": "tools_performance_check_syncpreviewaudiobody",
+      "community": 1,
+      "norm_label": "syncpreviewaudiobody"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 2,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Muntrie Public Legal Pages",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "muntrie_website_readme_muntrie_public_legal_pages",
+      "community": 2,
+      "norm_label": "muntrie public legal pages"
+    },
+    {
+      "label": "Current Purpose",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "id": "muntrie_website_readme_current_purpose",
+      "community": 2,
+      "norm_label": "current purpose"
+    },
+    {
+      "label": "Public Pages",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "id": "muntrie_website_readme_public_pages",
+      "community": 2,
+      "norm_label": "public pages"
+    },
+    {
+      "label": "Google Play URL",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "id": "muntrie_website_readme_google_play_url",
+      "community": 2,
+      "norm_label": "google play url"
+    },
+    {
+      "label": "code:text (https://<github-user-or-org>.github.io/<repo-name>/privacy.h)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "id": "muntrie_website_readme_codeblock_1",
+      "community": 2,
+      "norm_label": "code:text (https://<github-user-or-org>.github.io/<repo-name>/privacy.h)"
+    },
+    {
+      "label": "code:text (https://<github-user-or-org>.github.io/<repo-name>/privacy.h)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "id": "muntrie_website_readme_codeblock_2",
+      "community": 2,
+      "norm_label": "code:text (https://<github-user-or-org>.github.io/<repo-name>/privacy.h)"
+    },
+    {
+      "label": "code:text (https://<github-user-or-org>.github.io/<repo-name>/site/priv)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L38",
+      "id": "muntrie_website_readme_codeblock_3",
+      "community": 2,
+      "norm_label": "code:text (https://<github-user-or-org>.github.io/<repo-name>/site/priv)"
+    },
+    {
+      "label": "Pre-Launch Checks",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L44",
+      "id": "muntrie_website_readme_pre_launch_checks",
+      "community": 2,
+      "norm_label": "pre-launch checks"
+    },
+    {
+      "label": "Local Preview",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "id": "muntrie_website_readme_local_preview",
+      "community": 2,
+      "norm_label": "local preview"
+    },
+    {
+      "label": "code:bash (cd site)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L63",
+      "id": "muntrie_website_readme_codeblock_4",
+      "community": 2,
+      "norm_label": "code:bash (cd site)"
+    },
+    {
+      "label": "code:text (http://localhost:4173/privacy.html)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L70",
+      "id": "muntrie_website_readme_codeblock_5",
+      "community": 2,
+      "norm_label": "code:text (http://localhost:4173/privacy.html)"
+    },
+    {
+      "label": "Maintenance Principles",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L74",
+      "id": "muntrie_website_readme_maintenance_principles",
+      "community": 2,
+      "norm_label": "maintenance principles"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "id": "agents_md",
+      "community": 8,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "RTK - Rust Token Killer (Global Codex Rule)",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "id": "muntrie_website_agents_rtk_rust_token_killer_global_codex_rule",
+      "community": 8,
+      "norm_label": "rtk - rust token killer (global codex rule)"
+    },
+    {
+      "label": "PUA Skill Auto Trigger",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L17",
+      "id": "muntrie_website_agents_pua_skill_auto_trigger",
+      "community": 8,
+      "norm_label": "pua skill auto trigger"
+    },
+    {
+      "label": "graphify",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L30",
+      "id": "muntrie_website_agents_graphify",
+      "community": 8,
+      "norm_label": "graphify"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_localebuttons"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_yearnodes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_heronode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_livetimenode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_stagebackgroundsnode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_stagecenternode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_deviceshellnode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_previewsoundbutton"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_previewsoundlabelnode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_previewambientvaluenodes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_previewmusicvaluenodes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_previewscenevaluenodes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_previewambientaudionode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_previewmusicaudionode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_navtogglenode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_sitenavnode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_siteheadernode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_navindicatornode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_timeslotnodes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_stagebackgroundentries"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_getpath"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L45",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_clamp"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_escapehtml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_escapecssurl"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L72",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_cssimageurl"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_buildcssimagevalue"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L88",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_renderimagesourceattributes"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L68",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_resolvelocale"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L79",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_updatemeta"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L99",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_applytextcontent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L126",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_renderconfiglinks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L138",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_getcontactemail"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L155",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_renderhome"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L233",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_getdownloadcardstate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L242",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_getstorebadgemeta"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L272",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_renderstorebadge"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L289",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_renderclosingdownloadcard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L302",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_renderstagebackgrounds"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L347",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_renderstagebackground"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L356",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_renderactivestagebackground"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L327",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_renderstageindicators"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L352",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_updatestageindicators"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L361",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_switchtostagebackground"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L377",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_renderstagepreview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L382",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_getactivestageentry"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L386",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_applyprevieworientation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L393",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_updateactivestagepreview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L449",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_syncpreviewaudiosources"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L413",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_syncpreviewaudio"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L442",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_updatepreviewsoundui"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L456",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_playpreviewaudio"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L469",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_pausepreviewaudio"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L474",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_togglepreviewsound"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L490",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_stopstagebackgroundmotion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L494",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_setupstagebackgroundmotion"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L504",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_syncstageclocklayout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L537",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_setupstageclocklayoutobserver"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L549",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_getlegalsectionoutlinemeta"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L568",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_renderlegalpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L686",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_rendersimplecards"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L692",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_updatelivestageclock"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L717",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_setuprevealobserver"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L746",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_updatestickyheaderstate"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L751",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_syncactivenavindicator"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L772",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_scheduleactivenavindicatorsync"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L785",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_setactivenavlink"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L795",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_getsectionanchortarget"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L812",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_scrolltohashtarget"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L845",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_aligncurrenthashtarget"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L865",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_syncactivenavsection"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L905",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_applylocale"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L923",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_bindpreviewcontrols"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L929",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_bindlocalebuttons"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L941",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_createnavoverlay"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L950",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_opennavdrawer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L959",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_closenavdrawer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L967",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_bindnavtoggle"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L994",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_bindinpageanchors"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L1015",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_setupactivenavobserver"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L1050",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "script_js",
+      "target": "muntrie_website_script_setupstickyheader"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_updatemeta",
+      "target": "muntrie_website_script_getpath"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L518",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_syncstageclocklayout",
+      "target": "muntrie_website_script_clamp"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L89",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderimagesourceattributes",
+      "target": "muntrie_website_script_escapehtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L277",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderstorebadge",
+      "target": "muntrie_website_script_escapehtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L296",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderclosingdownloadcard",
+      "target": "muntrie_website_script_escapehtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L351",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderstagebackground",
+      "target": "muntrie_website_script_escapehtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L662",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderlegalpage",
+      "target": "muntrie_website_script_escapehtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_cssimageurl",
+      "target": "muntrie_website_script_escapecssurl"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_buildcssimagevalue",
+      "target": "muntrie_website_script_cssimageurl"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L351",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderstagebackground",
+      "target": "muntrie_website_script_buildcssimagevalue"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L911",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_applylocale",
+      "target": "muntrie_website_script_updatemeta"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L913",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_applylocale",
+      "target": "muntrie_website_script_applytextcontent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L912",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_applylocale",
+      "target": "muntrie_website_script_renderconfiglinks"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L640",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderlegalpage",
+      "target": "muntrie_website_script_getcontactemail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L161",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderhome",
+      "target": "muntrie_website_script_renderstagebackgrounds"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L162",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderhome",
+      "target": "muntrie_website_script_renderstagepreview"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L178",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderhome",
+      "target": "muntrie_website_script_rendersimplecards"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L914",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_applylocale",
+      "target": "muntrie_website_script_renderhome"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L290",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderclosingdownloadcard",
+      "target": "muntrie_website_script_getdownloadcardstate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L273",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderstorebadge",
+      "target": "muntrie_website_script_getstorebadgemeta"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L294",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderclosingdownloadcard",
+      "target": "muntrie_website_script_renderstorebadge"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L323",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderstagebackgrounds",
+      "target": "muntrie_website_script_setupstagebackgroundmotion"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L324",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderstagebackgrounds",
+      "target": "muntrie_website_script_renderstageindicators"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L360",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderactivestagebackground",
+      "target": "muntrie_website_script_renderstagebackground"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L359",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderactivestagebackground",
+      "target": "muntrie_website_script_getactivestageentry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L402",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_switchtostagebackground",
+      "target": "muntrie_website_script_renderactivestagebackground"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L372",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_switchtostagebackground",
+      "target": "muntrie_website_script_updatestageindicators"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L371",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_switchtostagebackground",
+      "target": "muntrie_website_script_setupstagebackgroundmotion"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L374",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_switchtostagebackground",
+      "target": "muntrie_website_script_updateactivestagepreview"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L378",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderstagepreview",
+      "target": "muntrie_website_script_applyprevieworientation"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L379",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderstagepreview",
+      "target": "muntrie_website_script_updateactivestagepreview"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L394",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_updateactivestagepreview",
+      "target": "muntrie_website_script_getactivestageentry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L485",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_togglepreviewsound",
+      "target": "muntrie_website_script_getactivestageentry"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L442",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_updateactivestagepreview",
+      "target": "muntrie_website_script_syncpreviewaudiosources"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L408",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_updateactivestagepreview",
+      "target": "muntrie_website_script_syncpreviewaudio"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L409",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_updateactivestagepreview",
+      "target": "muntrie_website_script_updatepreviewsoundui"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L410",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_updateactivestagepreview",
+      "target": "muntrie_website_script_syncstageclocklayout"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L527",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_togglepreviewsound",
+      "target": "muntrie_website_script_syncpreviewaudiosources"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L438",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_syncpreviewaudio",
+      "target": "muntrie_website_script_playpreviewaudio"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L485",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_togglepreviewsound",
+      "target": "muntrie_website_script_syncpreviewaudio"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L465",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_playpreviewaudio",
+      "target": "muntrie_website_script_updatepreviewsoundui"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L480",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_togglepreviewsound",
+      "target": "muntrie_website_script_updatepreviewsoundui"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L487",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_togglepreviewsound",
+      "target": "muntrie_website_script_playpreviewaudio"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L479",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_togglepreviewsound",
+      "target": "muntrie_website_script_pausepreviewaudio"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L495",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_setupstagebackgroundmotion",
+      "target": "muntrie_website_script_stopstagebackgroundmotion"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L538",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_setupstageclocklayoutobserver",
+      "target": "muntrie_website_script_syncstageclocklayout"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L575",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_renderlegalpage",
+      "target": "muntrie_website_script_rendersimplecards"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L915",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_applylocale",
+      "target": "muntrie_website_script_renderlegalpage"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L916",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_applylocale",
+      "target": "muntrie_website_script_updatelivestageclock"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L917",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_applylocale",
+      "target": "muntrie_website_script_setuprevealobserver"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L1053",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_setupstickyheader",
+      "target": "muntrie_website_script_updatestickyheaderstate"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L792",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_setactivenavlink",
+      "target": "muntrie_website_script_scheduleactivenavindicatorsync"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L919",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_applylocale",
+      "target": "muntrie_website_script_scheduleactivenavindicatorsync"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L902",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_syncactivenavsection",
+      "target": "muntrie_website_script_setactivenavlink"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L823",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_scrolltohashtarget",
+      "target": "muntrie_website_script_getsectionanchortarget"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L920",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_applylocale",
+      "target": "muntrie_website_script_aligncurrenthashtarget"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L1022",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_setupactivenavobserver",
+      "target": "muntrie_website_script_syncactivenavsection"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L918",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_applylocale",
+      "target": "muntrie_website_script_setupactivenavobserver"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "script.js",
+      "source_location": "L952",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_script_opennavdrawer",
+      "target": "muntrie_website_script_createnavoverlay"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_root"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_read"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_exists"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_sizeof"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_failures"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_assert"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_runtimefiles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_runtimetext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_body"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_optimizedimages"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L75",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_script"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_syncpreviewaudiostart"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L77",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_togglepreviewsoundstart"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/performance-check.mjs",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "tools_performance_check_mjs",
+      "target": "tools_performance_check_syncpreviewaudiobody"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "readme_md",
+      "target": "muntrie_website_readme_muntrie_public_legal_pages"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_readme_muntrie_public_legal_pages",
+      "target": "muntrie_website_readme_current_purpose"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_readme_muntrie_public_legal_pages",
+      "target": "muntrie_website_readme_public_pages"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_readme_muntrie_public_legal_pages",
+      "target": "muntrie_website_readme_google_play_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_readme_muntrie_public_legal_pages",
+      "target": "muntrie_website_readme_pre_launch_checks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_readme_muntrie_public_legal_pages",
+      "target": "muntrie_website_readme_local_preview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_readme_muntrie_public_legal_pages",
+      "target": "muntrie_website_readme_maintenance_principles"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_readme_google_play_url",
+      "target": "muntrie_website_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_readme_google_play_url",
+      "target": "muntrie_website_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_readme_google_play_url",
+      "target": "muntrie_website_readme_codeblock_3"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_readme_local_preview",
+      "target": "muntrie_website_readme_codeblock_4"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_readme_local_preview",
+      "target": "muntrie_website_readme_codeblock_5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_md",
+      "target": "muntrie_website_agents_rtk_rust_token_killer_global_codex_rule"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_md",
+      "target": "muntrie_website_agents_pua_skill_auto_trigger"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "agents_md",
+      "target": "muntrie_website_agents_graphify"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "muntrie_website_agents_pua_skill_auto_trigger",
+      "target": "muntrie_website_agents_graphify"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "fbce0cee1669542f52ed6a2e679f26f579eec744"
+}

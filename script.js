@@ -65,6 +65,36 @@ function escapeHtml(value) {
   });
 }
 
+function escapeCssUrl(value) {
+  return String(value).replace(/["\\\n\r\f]/g, "\\$&");
+}
+
+function cssImageUrl(value) {
+  return `url("${escapeCssUrl(value)}")`;
+}
+
+function buildCssImageValue(entry) {
+  const image = typeof entry === "string" ? entry : entry?.image;
+  if (!image) return "none";
+
+  const imageLarge = typeof entry === "string" ? "" : entry?.imageLarge;
+  if (!imageLarge || imageLarge === image) {
+    return cssImageUrl(image);
+  }
+
+  return `image-set(${cssImageUrl(image)} 1x, ${cssImageUrl(imageLarge)} 2x)`;
+}
+
+function renderImageSourceAttributes(item, sizes) {
+  const srcsetCandidates = [
+    item.src ? `${escapeHtml(item.src)} 1200w` : "",
+    item.srcLarge ? `${escapeHtml(item.srcLarge)} 1800w` : "",
+  ].filter(Boolean);
+  const srcset = srcsetCandidates.length ? ` srcset="${srcsetCandidates.join(", ")}"` : "";
+  const sizeAttr = sizes ? ` sizes="${escapeHtml(sizes)}"` : "";
+  return `src="${escapeHtml(item.src)}"${srcset}${sizeAttr}`;
+}
+
 function resolveLocale() {
   const storedLocale = window.localStorage.getItem(STORAGE_KEY);
   if (storedLocale && CONTENT[storedLocale]) {
@@ -204,7 +234,7 @@ function renderHome(locale) {
     home.scenes.cards,
     (item) => `
       <article class="scene-card glass" data-reveal>
-        <img src="${escapeHtml(item.src)}" alt="${escapeHtml(item.alt)}" width="600" height="750" loading="lazy" />
+        <img ${renderImageSourceAttributes(item, "(min-width: 900px) 46vw, 100vw")} alt="${escapeHtml(item.alt)}" width="600" height="750" loading="lazy" decoding="async" />
         <div class="scene-card-copy">
           <p class="scene-kicker">${escapeHtml(item.kicker)}</p>
           <h3>${escapeHtml(item.title)}</h3>
@@ -309,19 +339,29 @@ function renderStageBackgrounds(backgrounds) {
     : [];
 
   stageBackgroundsNode.innerHTML = stageBackgroundEntries
-    .map(
-      (entry, index) => `
-        <div
-          class="stage-background${index === 0 ? " is-active" : ""}"
-          style="--stage-background-image: url('${escapeHtml(entry.image)}');"
-        ></div>
-      `,
-    )
+    .slice(0, 1)
+    .map((entry) => renderStageBackground(entry))
     .join("");
 
   activeStageBackgroundIndex = 0;
   setupStageBackgroundMotion();
   renderStageIndicators();
+}
+
+function renderStageBackground(entry) {
+  return `
+    <div
+      class="stage-background is-active"
+      style="--stage-background-image: ${escapeHtml(buildCssImageValue(entry))};"
+    ></div>
+  `;
+}
+
+function renderActiveStageBackground() {
+  if (!stageBackgroundsNode) return;
+
+  const activeEntry = getActiveStageEntry();
+  stageBackgroundsNode.innerHTML = activeEntry ? renderStageBackground(activeEntry) : "";
 }
 
 function renderStageIndicators() {
@@ -360,13 +400,10 @@ function updateStageIndicators() {
 
 function switchToStageBackground(targetIndex) {
   if (!stageBackgroundsNode || targetIndex === activeStageBackgroundIndex) return;
+  if (!stageBackgroundEntries[targetIndex]) return;
 
-  const allBgs = stageBackgroundsNode.querySelectorAll(".stage-background");
-  if (allBgs.length === 0) return;
-
-  allBgs[activeStageBackgroundIndex]?.classList.remove("is-active");
   activeStageBackgroundIndex = targetIndex;
-  allBgs[activeStageBackgroundIndex]?.classList.add("is-active");
+  renderActiveStageBackground();
 
   setupStageBackgroundMotion();
   updateStageIndicators();
@@ -405,18 +442,16 @@ function updateActiveStagePreview(locale, stageContent) {
     node.textContent = activeEntry?.title || stageContent.label || "Home stage";
   });
 
+  if (previewSoundEnabled) {
+    syncPreviewAudioSources(stageContent, activeEntry);
+  }
   syncPreviewAudio(stageContent, activeEntry);
   updatePreviewSoundUi(stageContent);
   syncStageClockLayout();
 }
 
-function syncPreviewAudio(stageContent, activeEntry) {
-  if (!previewAmbientAudioNode || !previewMusicAudioNode) return;
-
-  previewAmbientAudioNode.loop = true;
-  previewMusicAudioNode.loop = true;
-  previewAmbientAudioNode.volume = 0.34;
-  previewMusicAudioNode.volume = 0.18;
+function syncPreviewAudioSources(stageContent, activeEntry) {
+  if (!previewAmbientAudioNode || !previewMusicAudioNode) return false;
 
   const ambientSrc = activeEntry?.ambientSrc || "";
   const musicSrc = stageContent.musicSrc || "";
@@ -434,7 +469,18 @@ function syncPreviewAudio(stageContent, activeEntry) {
     didChangeSource = true;
   }
 
-  if (previewSoundEnabled && (didChangeSource || previewAmbientAudioNode.paused || previewMusicAudioNode.paused)) {
+  return didChangeSource;
+}
+
+function syncPreviewAudio(stageContent, activeEntry) {
+  if (!previewAmbientAudioNode || !previewMusicAudioNode) return;
+
+  previewAmbientAudioNode.loop = true;
+  previewMusicAudioNode.loop = true;
+  previewAmbientAudioNode.volume = 0.34;
+  previewMusicAudioNode.volume = 0.18;
+
+  if (previewSoundEnabled && (previewAmbientAudioNode.paused || previewMusicAudioNode.paused)) {
     void playPreviewAudio();
   }
 }
@@ -482,6 +528,7 @@ async function togglePreviewSound() {
   }
 
   previewSoundEnabled = true;
+  syncPreviewAudioSources(stageContent, getActiveStageEntry());
   syncPreviewAudio(stageContent, getActiveStageEntry());
   updatePreviewSoundUi(stageContent);
   await playPreviewAudio();
@@ -653,11 +700,6 @@ function renderLegalPage(locale) {
         title: common.contactSecurityTitle || "Security contact",
         body: common.contactSecurityBody || "",
         email: getContactEmail("security"),
-      },
-      {
-        title: common.contactLegalTitle || "Legal notices",
-        body: common.contactLegalBody || "",
-        email: getContactEmail("legal"),
       },
     ];
 

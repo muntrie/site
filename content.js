@@ -24,7 +24,7 @@ window.MUNTRIE_SITE_CONTENT = {
       support: {
         title: "Muntrie | Support",
         description:
-          "Support routes for Muntrie, including product help, billing, privacy requests, security reports, and legal notices.",
+          "Support routes for Muntrie, including product help, billing, privacy requests, and security reports.",
       },
     },
     common: {
@@ -85,9 +85,6 @@ window.MUNTRIE_SITE_CONTENT = {
       contactSecurityTitle: "Security",
       contactSecurityBody:
         "Vulnerability reports, abuse reports, or security-sensitive issues.",
-      contactLegalTitle: "Legal notices",
-      contactLegalBody:
-        "Formal notices, rights requests, operator questions, or administrative legal matters.",
       contactOperatorTitle: "Operator",
       contactOperatorBody: "Muntrie is operated by Muntrie.",
     },
@@ -120,25 +117,29 @@ window.MUNTRIE_SITE_CONTENT = {
       stage: {
         backgrounds: [
           {
-            image: "./assets/images/scene-british-columbia.jpg",
+            image: "./assets/images/optimized/scene-british-columbia-1200.webp",
+            imageLarge: "./assets/images/optimized/scene-british-columbia-1800.webp",
             title: "Alpine Valley",
             ambientTitle: "Soft Wind",
             ambientSrc: "./assets/audio/ambient-soft-wind.mp3",
           },
           {
-            image: "./assets/images/scene-mist.jpg",
+            image: "./assets/images/optimized/scene-mist-1200.webp",
+            imageLarge: "./assets/images/optimized/scene-mist-1800.webp",
             title: "Misty Woodland",
             ambientTitle: "Soft Wind",
             ambientSrc: "./assets/audio/ambient-soft-wind.mp3",
           },
           {
-            image: "./assets/images/hero-ocean.jpg",
+            image: "./assets/images/optimized/hero-ocean-1200.webp",
+            imageLarge: "./assets/images/optimized/hero-ocean-1800.webp",
             title: "Ocean Waves",
             ambientTitle: "Ocean Waves",
             ambientSrc: "./assets/audio/ambient-ocean-waves.mp3",
           },
           {
-            image: "./assets/images/scene-forest.jpg",
+            image: "./assets/images/optimized/scene-forest-1200.webp",
+            imageLarge: "./assets/images/optimized/scene-forest-1800.webp",
             title: "Forest Birds",
             ambientTitle: "Forest Birds",
             ambientSrc: "./assets/audio/ambient-forest-birds.mp3",
@@ -235,7 +236,8 @@ window.MUNTRIE_SITE_CONTENT = {
           "Visual scenes, local ambient tracks, background music, and volume controls help the screen fit the room and task.",
         cards: [
           {
-            src: "./assets/images/scene-british-columbia.jpg",
+            src: "./assets/images/optimized/scene-british-columbia-1200.webp",
+            srcLarge: "./assets/images/optimized/scene-british-columbia-1800.webp",
             alt: "Alpine Valley scene",
             kicker: "Visual background",
             title: "Image and video backgrounds",
@@ -243,7 +245,8 @@ window.MUNTRIE_SITE_CONTENT = {
               "Choose a scene for the full-screen clock, from mist and forest to ocean and mountain views.",
           },
           {
-            src: "./assets/images/hero-ocean.jpg",
+            src: "./assets/images/optimized/hero-ocean-1200.webp",
+            srcLarge: "./assets/images/optimized/hero-ocean-1800.webp",
             alt: "Ocean Waves scene",
             kicker: "Ambient sound",
             title: "Local ambient tracks",
@@ -251,7 +254,8 @@ window.MUNTRIE_SITE_CONTENT = {
               "Use built-in sounds such as ocean waves, forest birds, and soft wind when silence feels too empty.",
           },
           {
-            src: "./assets/images/scene-forest.jpg",
+            src: "./assets/images/optimized/scene-forest-1200.webp",
+            srcLarge: "./assets/images/optimized/scene-forest-1800.webp",
             alt: "Forest Birds scene",
             kicker: "Music",
             title: "Background music",
@@ -259,7 +263,8 @@ window.MUNTRIE_SITE_CONTENT = {
               "Add calm music separately from ambient sound and adjust the mix for the current task.",
           },
           {
-            src: "./assets/images/scene-mist.jpg",
+            src: "./assets/images/optimized/scene-mist-1200.webp",
+            srcLarge: "./assets/images/optimized/scene-mist-1800.webp",
             alt: "Mist scene",
             kicker: "Controls",
             title: "Simple controls",
@@ -347,7 +352,7 @@ window.MUNTRIE_SITE_CONTENT = {
         eyebrow: "Operations",
         title: "Public contact routes",
         body:
-          "Public inboxes are separated by request type. Admin addresses are kept for internal account administration rather than public legal intake.",
+          "Public inboxes are separated by request type. Admin addresses are kept for internal account administration.",
       },
       contact: {
         support: "Product support",
@@ -355,7 +360,6 @@ window.MUNTRIE_SITE_CONTENT = {
         security: "Security reports",
         billing: "Billing and premium access",
         operations: "Operations and publisher questions",
-        legal: "Formal legal notices",
       },
       compliance: {
         eyebrow: "Review readiness",
@@ -369,7 +373,7 @@ window.MUNTRIE_SITE_CONTENT = {
         eyebrow: "Support",
         title: "How to reach Muntrie.",
         intro:
-          "Use the route that matches your request. It keeps product help, billing, privacy, security, and formal notices separate enough to handle correctly.",
+          "Use the route that matches your request. It keeps product help, billing, privacy, and security reports separate enough to handle correctly.",
       },
       primary: {
         eyebrow: "Start here",
@@ -392,11 +396,6 @@ window.MUNTRIE_SITE_CONTENT = {
           title: "Security reports",
           body:
             "Vulnerability reports, abuse reports, or issues that may expose sensitive information.",
-        },
-        legal: {
-          title: "Formal legal notices",
-          body:
-            "Rights requests, formal notices, or operator matters. Use the operations inbox for publisher or business routing questions.",
         },
       },
       checklist: {
@@ -675,7 +674,7 @@ window.MUNTRIE_SITE_CONTENT = {
       },
       support: {
         title: "Muntrie | 支持",
-        description: "Muntrie 支持入口，覆盖产品帮助、计费、隐私请求、安全报告与正式通知。",
+        description: "Muntrie 支持入口，覆盖产品帮助、计费、隐私请求与安全报告。",
       },
     },
     common: {
@@ -731,8 +730,6 @@ window.MUNTRIE_SITE_CONTENT = {
       contactPrivacyBody: "隐私问题、数据处理请求或账号数据相关咨询。",
       contactSecurityTitle: "安全",
       contactSecurityBody: "安全漏洞、滥用报告或涉及安全敏感信息的问题。",
-      contactLegalTitle: "法律通知",
-      contactLegalBody: "正式通知、权利请求、运营主体问题或行政法务事项。",
       contactOperatorTitle: "运营主体",
       contactOperatorBody: "Muntrie 由 Muntrie 运营。",
     },
@@ -765,25 +762,29 @@ window.MUNTRIE_SITE_CONTENT = {
       stage: {
         backgrounds: [
           {
-            image: "./assets/images/scene-british-columbia.jpg",
+            image: "./assets/images/optimized/scene-british-columbia-1200.webp",
+            imageLarge: "./assets/images/optimized/scene-british-columbia-1800.webp",
             title: "高山山谷",
             ambientTitle: "微风",
             ambientSrc: "./assets/audio/ambient-soft-wind.mp3",
           },
           {
-            image: "./assets/images/scene-mist.jpg",
+            image: "./assets/images/optimized/scene-mist-1200.webp",
+            imageLarge: "./assets/images/optimized/scene-mist-1800.webp",
             title: "薄雾林地",
             ambientTitle: "微风",
             ambientSrc: "./assets/audio/ambient-soft-wind.mp3",
           },
           {
-            image: "./assets/images/hero-ocean.jpg",
+            image: "./assets/images/optimized/hero-ocean-1200.webp",
+            imageLarge: "./assets/images/optimized/hero-ocean-1800.webp",
             title: "海浪",
             ambientTitle: "海浪",
             ambientSrc: "./assets/audio/ambient-ocean-waves.mp3",
           },
           {
-            image: "./assets/images/scene-forest.jpg",
+            image: "./assets/images/optimized/scene-forest-1200.webp",
+            imageLarge: "./assets/images/optimized/scene-forest-1800.webp",
             title: "森林鸟鸣",
             ambientTitle: "森林鸟鸣",
             ambientSrc: "./assets/audio/ambient-forest-birds.mp3",
@@ -869,28 +870,32 @@ window.MUNTRIE_SITE_CONTENT = {
         lead: "图片/视频场景、本地环境音、背景音乐和音量控制，让屏幕更适合当前房间与任务。",
         cards: [
           {
-            src: "./assets/images/scene-british-columbia.jpg",
+            src: "./assets/images/optimized/scene-british-columbia-1200.webp",
+            srcLarge: "./assets/images/optimized/scene-british-columbia-1800.webp",
             alt: "高山山谷场景",
             kicker: "视觉背景",
             title: "图片与视频背景",
             body: "为全屏时钟选择场景，从薄雾、森林到海洋和山谷。",
           },
           {
-            src: "./assets/images/hero-ocean.jpg",
+            src: "./assets/images/optimized/hero-ocean-1200.webp",
+            srcLarge: "./assets/images/optimized/hero-ocean-1800.webp",
             alt: "Ocean Waves 场景",
             kicker: "环境音",
             title: "本地环境音",
             body: "房间过于安静时，可以使用海浪、森林鸟鸣和微风等内置声音。",
           },
           {
-            src: "./assets/images/scene-forest.jpg",
+            src: "./assets/images/optimized/scene-forest-1200.webp",
+            srcLarge: "./assets/images/optimized/scene-forest-1800.webp",
             alt: "Forest Birds 场景",
             kicker: "音乐",
             title: "背景音乐",
             body: "环境音之外可以单独加入舒缓音乐，并按当前任务调整混合比例。",
           },
           {
-            src: "./assets/images/scene-mist.jpg",
+            src: "./assets/images/optimized/scene-mist-1200.webp",
+            srcLarge: "./assets/images/optimized/scene-mist-1800.webp",
             alt: "Mist 场景",
             kicker: "控制",
             title: "常用控制保持可达",
@@ -970,7 +975,7 @@ window.MUNTRIE_SITE_CONTENT = {
         eyebrow: "运营",
         title: "公开联系渠道",
         body:
-          "公开邮箱按请求类型分流。admin 类地址保留给内部账号和后台管理，不作为公开法务收件入口。",
+          "公开邮箱按请求类型分流。admin 类地址保留给内部账号和后台管理。",
       },
       contact: {
         support: "产品支持",
@@ -978,7 +983,6 @@ window.MUNTRIE_SITE_CONTENT = {
         security: "安全报告",
         billing: "计费与 Premium 权益",
         operations: "运营与发布主体问题",
-        legal: "正式法律通知",
       },
       compliance: {
         eyebrow: "审核准备",
@@ -992,7 +996,7 @@ window.MUNTRIE_SITE_CONTENT = {
         eyebrow: "支持",
         title: "如何联系 Muntrie。",
         intro:
-          "请按请求类型选择对应渠道。这样可以让产品支持、计费、隐私、安全与正式通知分开处理，减少遗漏和误转。",
+          "请按请求类型选择对应渠道。这样可以让产品支持、计费、隐私与安全反馈分开处理，减少遗漏和误转。",
       },
       primary: {
         eyebrow: "先从这里开始",
@@ -1012,10 +1016,6 @@ window.MUNTRIE_SITE_CONTENT = {
         security: {
           title: "安全报告",
           body: "安全漏洞、滥用报告，或可能暴露敏感信息的问题。",
-        },
-        legal: {
-          title: "正式法律通知",
-          body: "权利请求、正式通知或运营主体事项。发布主体或业务转接问题请使用运营邮箱。",
         },
       },
       checklist: {
